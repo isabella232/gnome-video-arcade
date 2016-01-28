@@ -184,27 +184,34 @@ gva_mame_get_version (GError **error)
 
         /* Output is as follows:
          *
+         * (v0.170 and later)
+         *
+         * MAME v0.xxx (Mmm dd yyy)
+         * Copyright Nicola Salmoria and the MAME team
+         *
+         * (v0.169 and prior)
+         *
          * M.A.M.E. v0.xxx (Mmm dd yyyy) - Multiple Arcade Machine Emulator
-         * Copyright (x) 1997-2007 by Nicola Salmoria and the MAME Team
+         * Copyright Nicola Salmoria and the MAME team
          * ...
          */
 
         if (lines == NULL || lines[0] == NULL)
-                goto exit;
-
-        cp = strstr (lines[0], " - Multiple Arcade Machine Emulator");
-        if (cp != NULL)
         {
-                *cp = '\0';
-                version = g_strdup (lines[0]);
-        }
-
-exit:
-        if (version == NULL)
                 g_set_error (
                         error, GVA_ERROR, GVA_ERROR_MAME,
                         _("Could not determine emulator version"));
+                goto exit;
+        }
 
+        version = g_strstrip (g_strdup (lines[0]));
+
+        /* Adjust for v0.169 and prior. */
+        cp = strstr (version, " - Multiple Arcade Machine Emulator");
+        if (cp != NULL)
+                *cp = '\0';
+
+exit:
         g_strfreev (lines);
 
         return version;
