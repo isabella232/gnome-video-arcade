@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-20 17:02+0200\n"
-"PO-Revision-Date: 2016-08-20 17:03+0200\n"
+"POT-Creation-Date: 2016-09-09 03:09+0200\n"
+"PO-Revision-Date: 2016-09-09 03:10+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -211,7 +211,7 @@ msgstr "• <b>TA GRA NIE DZIAŁA.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
 msgid "• The game has protection which isn't fully emulated."
-msgstr "• Gra posiada zabezpieczenie, które nie jest w pełni emulowane."
+msgstr "• Gra ma zabezpieczenie, które nie jest w pełni emulowane."
 
 #: ../data/gnome-video-arcade.builder.h:49
 msgid "<b>BIOS</b>"
@@ -687,7 +687,7 @@ msgstr "Gracze (naprzemiennie)"
 
 #: ../src/gva-columns.c:1030
 msgid "Players (Sim.)"
-msgstr "Gracze (w tym samym czasie)"
+msgstr "Gracze (w tym samym czasie)"
 
 #: ../src/gva-columns.c:1035
 msgid "Status"
@@ -943,7 +943,7 @@ msgstr ""
 "uzyskania bliższych informacji należy zapoznać się z Powszechną Licencją "
 "Publiczną GNU.\n"
 "\n"
-"Z pewnością wraz zvprogramem GNOME Video Arcade dostarczono także egzemplarz "
+"Z pewnością wraz z programem GNOME Video Arcade dostarczono także egzemplarz "
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
 "— proszę odwiedzić stronę internetową <http://www.gnu.org/licenses/>."
 
