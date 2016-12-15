@@ -437,11 +437,11 @@ msgstr "Foreslået filnavn for \"Gem som\"-dialogen for ROM-fejl."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
 msgid "Properties height"
-msgstr "Egenskabers højde"
+msgstr "Højde for Egenskaber"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:14
 msgid "The height of the Properties window."
-msgstr "Vinduet Egenskabers højde."
+msgstr "Højden på vinduet Egenskaber."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:15
 msgid "Properties maximized"
@@ -449,11 +449,11 @@ msgstr "Egenskaber maksimeret"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:16
 msgid "True if the Properties window is maximized."
-msgstr "Sand hvis Vinduet Egenskaber er maksimeret."
+msgstr "Sand hvis vinduet Egenskaber er maksimeret."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:17
 msgid "Properties page"
-msgstr "Side i Egenskabers"
+msgstr "Side for Egenskaber"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:18
 msgid "The most recently selected page in the Properties window."
@@ -461,11 +461,11 @@ msgstr "Den sidst valgte side i vinduet Egenskaber."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:19
 msgid "Properties width"
-msgstr "Egenskabers bredde"
+msgstr "Bredde for Egenskaber"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:20
 msgid "The width of the Properties window."
-msgstr "Vinduet Egenskabers bredde."
+msgstr "Bredde på vinduet Egenskaber."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:21
 msgid "Search text"
@@ -485,7 +485,7 @@ msgstr "Det sidst valgte spil."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:25
 msgid "Selected completion match"
-msgstr "Valgt udførelsesmatch"
+msgstr "Valgt fuldførelsesmatch"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:26
 msgid ""
@@ -494,7 +494,7 @@ msgid ""
 "the match. Example: (manufacturer, Williams). Empty values indicate the "
 "completion feature was not used in the most recent search."
 msgstr ""
-"Det sidst valgte match fra en søgefuldførelsesliste. Den første værdi er "
+"Det senest valgte match fra en liste over fuldførte søgninger. Den første værdi er "
 "matchets kolonnenanvn, og den anden værdi er teksten på matchet. Eksempel: "
 "(producent, Nielsen). Blanke værdier indikerer, at fuldførelsesfunktionen "
 "ikke blev brugt i den seneste søgning."
@@ -505,7 +505,7 @@ msgstr "Valgt visning"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:28
 msgid "The most recently selected view."
-msgstr "Den sidst valgte visning."
+msgstr "Den senest valgte visning."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:29
 msgid "Show cloned games"
