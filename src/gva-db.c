@@ -180,6 +180,9 @@
         "CREATE TABLE IF NOT EXISTS control (" \
                 "game NOT NULL, " \
                 "type NOT NULL, " \
+                /* new in 0.173 */ "player, " \
+                /* new in 0.173 */ "buttons, " \
+                /* new in 0.175 */ "reqbuttons, " \
                 "minimum, " \
                 "maximum, " \
                 "sensitivity, " \
@@ -367,6 +370,9 @@
         "INSERT INTO control VALUES (" \
                 "@game, " \
                 "@type, " \
+                "@player, " \
+                "@buttons, " \
+                "@reqbuttons, " \
                 "@minimum, " \
                 "@maximum, " \
                 "@sensitivity, " \
@@ -484,10 +490,12 @@ static struct
         const gchar *orientation;
         const gchar *palettesize;
         const gchar *pixclock;
+        const gchar *player;
         const gchar *players;
         const gchar *protection;
         const gchar *refresh;
         const gchar *region;
+        const gchar *reqbuttons;
         const gchar *reverse;
         const gchar *rom;
         const gchar *romof;
@@ -741,6 +749,12 @@ db_parser_start_element_control (ParserData *data,
 
                 if (attribute_name[ii] == intern.type)
                         param = "@type";
+                else if (attribute_name[ii] == intern.player)
+                        param = "@player";
+                else if (attribute_name[ii] == intern.buttons)
+                        param = "@buttons";
+                else if (attribute_name[ii] == intern.reqbuttons)
+                        param = "@reqbuttons";
                 else if (attribute_name[ii] == intern.minimum)
                         param = "@minimum";
                 else if (attribute_name[ii] == intern.maximum)
@@ -1801,10 +1815,12 @@ gva_db_build (GError **error)
         intern.orientation   = g_intern_static_string ("orientation");
         intern.palettesize   = g_intern_static_string ("palettesize");
         intern.pixclock      = g_intern_static_string ("pixclock");
+        intern.player        = g_intern_static_string ("player");
         intern.players       = g_intern_static_string ("players");
         intern.protection    = g_intern_static_string ("protection");
         intern.refresh       = g_intern_static_string ("refresh");
         intern.region        = g_intern_static_string ("region");
+        intern.reqbuttons    = g_intern_static_string ("reqbuttons");
         intern.reverse       = g_intern_static_string ("reverse");
         intern.rom           = g_intern_static_string ("rom");
         intern.romof         = g_intern_static_string ("romof");
