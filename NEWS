@@ -1,3 +1,27 @@
+GNOME Video Arcade 0.8.7
+========================
+
+        Released April 28, 2017
+
+        What's New
+        ----------
+        * Adapting to MAME's ever-changing XML schema.  MAME 0.184
+          introduced a small change that broke database construction,
+          resulting in no games listed.
+
+        New Translations
+        ----------------
+        Hungarian (Balázs Úr)
+        Indonesian (Kukuh Syafaat)
+
+        Updated Translations
+        --------------------
+        Danish (Alan Mortensen)
+        German (Mario Blättermann)
+        Polish (Piotr Drąg)
+        Swedish (Anders Jonsson)
+
+
 GNOME Video Arcade 0.8.6
 ========================
 
