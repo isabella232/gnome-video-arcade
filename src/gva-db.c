@@ -161,7 +161,7 @@
                 "game NOT NULL, " \
                 "type NOT NULL " \
                 "CHECK (type in ('raster', 'vector', 'lcd', 'unknown')), " \
-                "rotate NOT NULL " \
+                "rotate DEFAULT '0' " \
                 "CHECK (rotate in ('0', '90', '180', '270')), " \
                 "flipx DEFAULT 'no' " \
                 "CHECK (flipx in ('yes', 'no')), " \
