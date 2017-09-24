@@ -1177,7 +1177,7 @@ msgstr ""
 "Pour des raisons légales, les jeux ne sont pas livrés avec "
 "<application>GNOME Video Arcade</application> or <application>MAME</"
 "application>. La <ulink url=\"http://mamedev.org/devwiki/index.php/FAQ:"
-"Setting_Up\"> FAQ <application>MAME</ application></ulink> fournit quelques "
+"Setting_Up\"> FAQ <application>MAME</application></ulink> fournit quelques "
 "suggestions pour obtenir des images de ROM :"
 
 #. (itstool) path: blockquote/para
