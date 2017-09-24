@@ -649,7 +649,7 @@ msgid ""
 "<guibutton>Close</guibutton> button."
 msgstr ""
 "Pour fermer la boîte de dialogue <guilabel>Propriétés</guilabel>, cliquez "
-"sur le bouton <guilabel>Fermer</close>. "
+"sur le bouton <guibutton>Fermer</guibutton>. "
 
 #. (itstool) path: note/para
 #: C/index.docbook:311
