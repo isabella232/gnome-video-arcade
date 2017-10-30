@@ -31,7 +31,7 @@
         if ((code) != SQLITE_OK) g_error ("%s", sqlite3_errmsg (db));
 
 /* Based on MAME's DTD */
-#define MAX_ELEMENT_DEPTH 4
+#define MAX_ELEMENT_DEPTH 5
 
 /* The new <dipswitch> and <configuration> attributes in 0.136 are
  * REQUIRED, but we are leaving them as optional in the table schema
@@ -160,7 +160,7 @@
         "CREATE TABLE IF NOT EXISTS display (" \
                 "game NOT NULL, " \
                 "type NOT NULL " \
-                "CHECK (type in ('raster', 'vector', 'lcd', 'unknown')), " \
+                "CHECK (type in ('raster', 'vector', 'lcd', 'svg', 'unknown')), " \
                 "rotate DEFAULT '0' " \
                 "CHECK (rotate in ('0', '90', '180', '270')), " \
                 "flipx DEFAULT 'no' " \
