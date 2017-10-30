@@ -1,3 +1,15 @@
+GNOME Video Arcade 0.8.8
+========================
+
+        Released October 30, 2017
+
+        What's New
+        ----------
+        * Adapting again to MAME's ever-changing XML schema.
+          MAME 0.191 exceeded GVA's internal XML element depth limit,
+          which caused the program to abort during database construction.
+
+
 GNOME Video Arcade 0.8.7
 ========================
 
