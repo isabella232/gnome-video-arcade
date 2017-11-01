@@ -1,5 +1,7 @@
 ### Process this file with automake to produce Makefile.in
 
+@INTLTOOL_XML_RULE@
+
 desktopdir = $(datadir)/applications
 desktop_in_files = gnome-video-arcade.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
@@ -11,7 +13,6 @@ appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 
 gsettingsschema_in_files = org.gnome.VideoArcade.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
-@INTLTOOL_XML_NOMERGE_RULE@
 @GSETTINGS_RULES@
 
 gsettingsconvertdir = $(datadir)/GConf/gsettings
