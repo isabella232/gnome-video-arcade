@@ -5,6 +5,10 @@ desktop_in_files = gnome-video-arcade.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
 
+appdatadir = $(datadir)/metainfo
+appdata_in_files = gnome-video-arcade.appdata.xml.in
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+
 gsettingsschema_in_files = org.gnome.VideoArcade.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @INTLTOOL_XML_NOMERGE_RULE@
@@ -44,6 +48,7 @@ EXTRA_DIST = \
 
 DISTCLEANFILES = \
 	$(desktop_DATA)			\
+	$(appdata_DATA)			\
 	$(gsettings_SCHEMAS)
 
 MAINTAINERCLEANFILES = \

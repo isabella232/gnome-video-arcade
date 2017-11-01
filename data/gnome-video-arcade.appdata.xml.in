@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Matthew Barnes <mbarnes@redhat.com> -->
+<component type="desktop-application">
+  <id>org.gnome.gnome-video-arcade</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>GNOME Video Arcade</name>
+  <developer_name>Matthew Barnes</developer_name>
+  <update_contact>mbarnes_AT_redhat.com</update_contact>
+
+  <description>
+    <p>
+      GNOME Video Arcade is a simple front-end application for MAME
+      (Multiple Arcade Machine Emulator) allowing you to play classic
+      arcade games on your computer.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">gnome-video-arcade.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://wiki.gnome.org/Apps/GnomeVideoArcade?action=AttachFile&amp;do=get&amp;target=screenshot-main.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://wiki.gnome.org/Apps/GnomeVideoArcade</url>
+
+  <provides>
+    <binary>gnome-video-arcade</binary>
+  </provides>
+</component>
