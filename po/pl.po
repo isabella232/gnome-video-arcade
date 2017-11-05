@@ -1,15 +1,15 @@
 # Polish translation for gnome-video-arcade.
-# Copyright © 2015-2016 the gnome-video-arcade authors.
+# Copyright © 2015-2017 the gnome-video-arcade authors.
 # This file is distributed under the same license as the gnome-video-arcade package.
-# Piotr Drąg <piotrdrag@gmail.com>, 2015-2016.
-# Aviary.pl <community-poland@mozilla.org>, 2015-2016.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015-2017.
+# Aviary.pl <community-poland@mozilla.org>, 2015-2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-09 03:09+0200\n"
-"PO-Revision-Date: 2016-09-09 03:10+0200\n"
+"POT-Creation-Date: 2017-11-05 15:28+0100\n"
+"PO-Revision-Date: 2017-11-05 15:38+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -120,6 +120,7 @@ msgid "Show my search results"
 msgstr "Wyświetla wyniki wyszukiwania"
 
 #: ../data/gnome-video-arcade.builder.h:26
+#: ../data/gnome-video-arcade.appdata.xml.in.h:1
 #: ../data/gnome-video-arcade.desktop.in.h:1
 msgid "GNOME Video Arcade"
 msgstr "Salon gier GNOME"
@@ -155,7 +156,7 @@ msgid ""
 "their ROM requirements have changed.  If so, you will need to acquire more "
 "recent ROM files.</i></small>"
 msgstr ""
-"<small><i>Jeśli te gry działały w poprzednich wersjach M.A.M.E., to "
+"<small><i>Jeśli te gry działały w poprzednich wersjach MAME, to "
 "prawdopodobnie ich wymagania ROM uległy zmianie. Jeśli tak się stało, to "
 "należy uzyskać nowsze pliki ROM.</i></small>"
 
@@ -267,7 +268,7 @@ msgstr "_Spis treści"
 
 #: ../data/gnome-video-arcade.builder.h:62
 msgid "Open the help documentation"
-msgstr "Otwiera dokumentację pomocy"
+msgstr "Otwiera pomoc"
 
 #: ../data/gnome-video-arcade.builder.h:63
 msgid "_Preferences"
@@ -349,6 +350,15 @@ msgstr "Wybór kolejności pojawiania się informacji na liście gier."
 #: ../data/gnome-video-arcade.builder.h:81
 msgid "Columns"
 msgstr "Kolumny"
+
+#: ../data/gnome-video-arcade.appdata.xml.in.h:2
+msgid ""
+"GNOME Video Arcade is a simple front-end application for MAME (Multiple "
+"Arcade Machine Emulator) allowing you to play classic arcade games on your "
+"computer."
+msgstr ""
+"Salon gier GNOME to prosty interfejs dla MAME umożliwiający granie "
+"w klasyczne gry z automatów na komputerze."
 
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
@@ -593,7 +603,7 @@ msgstr "Zarządzany widok"
 
 #: ../src/gva-column-manager.c:558
 msgid "The GtkTreeView being managed"
-msgstr "Zarządzane widok GtkTreeView"
+msgstr "Zarządzany widok GtkTreeView"
 
 #: ../src/gva-column-manager.c:615
 msgid "Move _Up"
@@ -949,17 +959,17 @@ msgstr ""
 
 #: ../src/gva-ui.c:310
 msgid "M.A.M.E. Front-End"
-msgstr "Interfejs dla M.A.M.E."
+msgstr "Interfejs dla MAME"
 
 #: ../src/gva-ui.c:315
 msgid "Visit the Website"
-msgstr "Witryna programu"
+msgstr "Witryna"
 
 #: ../src/gva-ui.c:317
 msgid "translator-credits"
 msgstr ""
-"Piotr Drąg <piotrdrag@gmail.com>, 2015-2016\n"
-"Aviary.pl <community-poland@mozilla.org>, 2015-2016"
+"Piotr Drąg <piotrdrag@gmail.com>, 2015-2017\n"
+"Aviary.pl <community-poland@mozilla.org>, 2015-2017"
 
 #. Translators: This is passed through D-Bus as
 #. * the reason to inhibit GNOME screen saver.
@@ -1023,10 +1033,9 @@ msgid ""
 "is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
 "more details and troubleshooting tips."
 msgstr ""
-"Salon gier GNOME nie mógł ustalić położenia plików ROM. Być może M.A.M.E. "
-"jest błędnie skonfigurowane lub żadne pliki ROM nie są zainstalowane. "
-"Kliknięcie przycisku <b>Pomoc</b> wyświetli więcej informacji i wskazówki "
-"naprawy."
+"Salon gier GNOME nie mógł ustalić położenia plików ROM. Być może MAME jest "
+"błędnie skonfigurowane lub żadne pliki ROM nie są zainstalowane. Kliknięcie "
+"przycisku <b>Pomoc</b> wyświetli więcej informacji i wskazówki naprawy."
 
 #: ../src/main.c:152
 msgid "Changes detected in ROM files"
