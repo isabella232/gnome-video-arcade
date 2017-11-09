@@ -4,7 +4,7 @@
 [type: gettext/glade]data/gnome-video-arcade.builder
 data/gnome-video-arcade.appdata.xml.in
 data/gnome-video-arcade.desktop.in
-data/org.gnome.VideoArcade.gschema.xml.in
+[type: gettext/gsettings]data/org.gnome.VideoArcade.gschema.xml.in
 src/gva-audit.c
 src/gva-column-manager.c
 src/gva-columns.c
