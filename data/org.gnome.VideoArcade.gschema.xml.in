@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
 
   <schema id="org.gnome.VideoArcade" path="/org/gnome/video-arcade/" gettext-domain="gnome-video-arcade">
@@ -6,7 +7,7 @@
       <default>['favorite','description']</default>
       <_summary>All available column names</_summary>
       <_description>List of all available column names.  The user may choose
-      to only display a subset of them (see "columns").</_description>
+      to only display a subset of them (see “columns”).</_description>
     </key>
 
     <key name="auto-save" type="b">
@@ -30,7 +31,7 @@
     <key name="favorites" type="as">
       <default>[]</default>
       <_summary>Favorite games</_summary>
-      <_description>List of the user's favorite games.</_description>
+      <_description>List of the user’s favorite games.</_description>
     </key>
 
     <key name="full-screen" type="b">
@@ -43,7 +44,7 @@
     <key name="error-file" type="s">
       <default>''</default>
       <_summary>ROM error filename</_summary>
-      <_description>Suggested filename for the ROM error "Save As" dialog.
+      <_description>Suggested filename for the ROM error “Save As” dialog.
       </_description>
     </key>
 
@@ -111,7 +112,7 @@
       <default>('default',false)</default>
       <_summary>Sort column and sort order</_summary>
       <_description>The first value is the most recently sorted column name
-      (or "default" for default sorting), and the second value is the
+      (or “default” for default sorting), and the second value is the
       sort order.  True indicates descending order; False indicates
       ascending order.</_description>
     </key>

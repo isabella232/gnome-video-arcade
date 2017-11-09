@@ -239,7 +239,7 @@ gva_main_build_database (GError **error)
 
         gva_main_progress_bar_show ();
         gva_main_progress_bar_set_fraction (0.0);
-        gva_main_statusbar_push (context_id, _("Building game database..."));
+        gva_main_statusbar_push (context_id, _("Building game database…"));
 
         g_signal_connect (
                 process, "notify::progress",
@@ -299,7 +299,7 @@ gva_main_analyze_roms (GError **error)
 
         gva_main_progress_bar_show ();
         gva_main_progress_bar_set_fraction (0.0);
-        gva_main_statusbar_push (context_id, _("Analyzing ROM files..."));
+        gva_main_statusbar_push (context_id, _("Analyzing ROM files…"));
 
         timeout_id = g_timeout_add (
                 PROGRESS_BAR_PULSE_INTERVAL_MS,

@@ -298,7 +298,7 @@ columns_show_popup_menu (GdkEventButton *event,
         label = g_strdup_printf (
                 _("Remove %s Column"), column_title);
         tooltip = g_strdup_printf (
-                _("Remove the \"%s\" column from the game list"),
+                _("Remove the “%s” column from the game list"),
                 column_title);
         g_object_set (
                 GVA_ACTION_REMOVE_COLUMN, "label",
@@ -762,7 +762,7 @@ columns_tooltip_driver_status (GtkTreeModel *model,
         /* The labels begin with a UTF-8 encoded bullet character. */
 
         /* xgettext:no-c-format */
-        text = _("• The colors aren't 100% accurate.");
+        text = _("• The colors aren’t 100% accurate.");
         widget = gtk_label_new (text);
         gtk_misc_set_alignment (GTK_MISC (widget), 0.0, 0.5);
         gtk_table_attach (
@@ -781,7 +781,7 @@ columns_tooltip_driver_status (GtkTreeModel *model,
                 gtk_widget_show (widget);
 
         /* xgettext:no-c-format */
-        text = _("• The video emulation isn't 100% accurate.");
+        text = _("• The video emulation isn’t 100% accurate.");
         widget = gtk_label_new (text);
         gtk_misc_set_alignment (GTK_MISC (widget), 0.0, 0.5);
         gtk_table_attach (
@@ -791,7 +791,7 @@ columns_tooltip_driver_status (GtkTreeModel *model,
                 gtk_widget_show (widget);
 
         /* xgettext:no-c-format */
-        text = _("• The sound emulation isn't 100% accurate.");
+        text = _("• The sound emulation isn’t 100% accurate.");
         widget = gtk_label_new (text);
         gtk_misc_set_alignment (GTK_MISC (widget), 0.0, 0.5);
         gtk_table_attach (
@@ -818,7 +818,7 @@ columns_tooltip_driver_status (GtkTreeModel *model,
         if (strcmp (driver_cocktail, "preliminary") == 0)
                 gtk_widget_show (widget);
 
-        text = _("• <b>THIS GAME DOESN'T WORK.</b>");
+        text = _("• <b>THIS GAME DOESN’T WORK.</b>");
         widget = gtk_label_new (text);
         gtk_label_set_use_markup (GTK_LABEL (widget), TRUE);
         gtk_misc_set_alignment (GTK_MISC (widget), 0.0, 0.5);
@@ -828,7 +828,7 @@ columns_tooltip_driver_status (GtkTreeModel *model,
         if (strcmp (driver_emulation, "preliminary") == 0)
                 gtk_widget_show (widget);
 
-        text = _("• The game has protection which isn't fully emulated.");
+        text = _("• The game has protection which isn’t fully emulated.");
         widget = gtk_label_new (text);
         gtk_misc_set_alignment (GTK_MISC (widget), 0.0, 0.5);
         gtk_table_attach (

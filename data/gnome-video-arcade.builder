@@ -29,7 +29,7 @@
     </child>
     <child>
       <object class="GtkAction" id="play-back">
-        <property name="label" translatable="yes">Play _Back...</property>
+        <property name="label" translatable="yes">Play _Back…</property>
         <property name="tooltip" translatable="yes">Play back the selected game recording</property>
         <property name="stock_id">gtk-media-play</property>
         <signal name="activate" handler="gva_action_play_back_cb" swapped="no"/>
@@ -79,7 +79,7 @@
     </child>
     <child>
       <object class="GtkAction" id="save-errors">
-        <property name="label" translatable="yes">Save _As...</property>
+        <property name="label" translatable="yes">Save _As…</property>
         <property name="tooltip" translatable="yes">Save ROM errors to a file</property>
         <property name="stock_id">gtk-save-as</property>
         <signal name="activate" handler="gva_action_save_errors_cb" swapped="no"/>
@@ -87,7 +87,7 @@
     </child>
     <child>
       <object class="GtkAction" id="search">
-        <property name="label" translatable="yes">S_earch...</property>
+        <property name="label" translatable="yes">S_earch…</property>
         <property name="tooltip" translatable="yes">Show a custom list of games</property>
         <property name="stock_id">gtk-find</property>
         <signal name="activate" handler="gva_action_search_cb" swapped="no"/>
@@ -95,7 +95,7 @@
     </child>
     <child>
       <object class="GtkAction" id="show-play-back">
-        <property name="label" translatable="yes">Play _Back...</property>
+        <property name="label" translatable="yes">Play _Back…</property>
         <property name="tooltip" translatable="yes">Play back a previously recorded game</property>
         <property name="stock_id">gtk-media-play</property>
         <signal name="activate" handler="gva_action_show_play_back_cb" swapped="no"/>
@@ -924,7 +924,7 @@ Manufacturer, Year</property>
                                             <property name="visible">True</property>
                                             <property name="can_focus">False</property>
                                             <property name="xalign">0</property>
-                                            <property name="label" translatable="yes">• The colors aren't 100% accurate.</property>
+                                            <property name="label" translatable="yes">• The colors aren’t 100% accurate.</property>
                                             <property name="ellipsize">end</property>
                                           </object>
                                           <packing>
@@ -952,7 +952,7 @@ Manufacturer, Year</property>
                                             <property name="visible">True</property>
                                             <property name="can_focus">False</property>
                                             <property name="xalign">0</property>
-                                            <property name="label" translatable="yes">• The video emulation isn't 100% accurate.</property>
+                                            <property name="label" translatable="yes">• The video emulation isn’t 100% accurate.</property>
                                             <property name="ellipsize">end</property>
                                           </object>
                                           <packing>
@@ -966,7 +966,7 @@ Manufacturer, Year</property>
                                             <property name="visible">True</property>
                                             <property name="can_focus">False</property>
                                             <property name="xalign">0</property>
-                                            <property name="label" translatable="yes">• The sound emulation isn't 100% accurate.</property>
+                                            <property name="label" translatable="yes">• The sound emulation isn’t 100% accurate.</property>
                                             <property name="ellipsize">end</property>
                                           </object>
                                           <packing>
@@ -1008,7 +1008,7 @@ Manufacturer, Year</property>
                                             <property name="visible">True</property>
                                             <property name="can_focus">False</property>
                                             <property name="xalign">0</property>
-                                            <property name="label" translatable="yes">• &lt;b&gt;THIS GAME DOESN'T WORK.&lt;/b&gt;</property>
+                                            <property name="label" translatable="yes">• &lt;b&gt;THIS GAME DOESN’T WORK.&lt;/b&gt;</property>
                                             <property name="use_markup">True</property>
                                           </object>
                                           <packing>
@@ -1022,7 +1022,7 @@ Manufacturer, Year</property>
                                             <property name="visible">True</property>
                                             <property name="can_focus">False</property>
                                             <property name="xalign">0</property>
-                                            <property name="label" translatable="yes">• The game has protection which isn't fully emulated.</property>
+                                            <property name="label" translatable="yes">• The game has protection which isn’t fully emulated.</property>
                                           </object>
                                           <packing>
                                             <property name="expand">False</property>
