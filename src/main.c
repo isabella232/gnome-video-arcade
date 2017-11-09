@@ -323,10 +323,15 @@ tweak_css (gpointer unused)
 
         gtk_widget_get_allocation (GVA_WIDGET_MAIN_STATUSBAR, &allocation);
 
+        /* XXX Slim down the progress bar slightly. Should probably be
+         *     based on CSS properties, but just eyeballing it for now. */
+        if (allocation.height > 4)
+                allocation.height -= 4;
+
         css_data = g_strdup_printf (
-                "GtkProgressBar { "
-                "-GtkProgressBar-min-horizontal-bar-height: %u;"
-                " }",
+                "progressbar.horizontal trough, "
+                "progressbar.horizontal progress "
+                "{ min-height: %upx; }",
                 allocation.height);
 
         provider = gtk_css_provider_new ();
