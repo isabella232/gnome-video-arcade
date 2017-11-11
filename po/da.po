@@ -10,9 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "video-arcade&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2016-07-21 19:42+0000\n"
+"POT-Creation-Date: 2017-11-01 22:36+0000\n"
 "PO-Revision-Date: 2016-12-10 17:06+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
@@ -33,7 +33,7 @@ msgstr "Vis næste spil"
 
 #: ../data/gnome-video-arcade.builder.h:3
 msgid "Play _Back..."
-msgstr "Af_spil..."
+msgstr "Af_spil …"
 
 #: ../data/gnome-video-arcade.builder.h:4
 msgid "Play back the selected game recording"
@@ -69,7 +69,7 @@ msgstr "Fjern det valgte spil fra listen over mine foretrukne"
 
 #: ../data/gnome-video-arcade.builder.h:12
 msgid "Save _As..."
-msgstr "Gem _Som..."
+msgstr "Gem _Som …"
 
 #: ../data/gnome-video-arcade.builder.h:13
 msgid "Save ROM errors to a file"
@@ -77,7 +77,7 @@ msgstr "Gem ROM-fejl i en fil"
 
 #: ../data/gnome-video-arcade.builder.h:14
 msgid "S_earch..."
-msgstr "S_øg..."
+msgstr "S_øg …"
 
 #: ../data/gnome-video-arcade.builder.h:15
 msgid "Show a custom list of games"
@@ -124,6 +124,7 @@ msgid "Show my search results"
 msgstr "Vis mine søgeresultater"
 
 #: ../data/gnome-video-arcade.builder.h:26
+#: ../data/gnome-video-arcade.appdata.xml.in.h:1
 #: ../data/gnome-video-arcade.desktop.in.h:1
 msgid "GNOME Video Arcade"
 msgstr "GNOME Video Arcade"
@@ -358,6 +359,13 @@ msgstr "Vælg rækkefølge for spillistens indhold."
 msgid "Columns"
 msgstr "Kolonner"
 
+#: ../data/gnome-video-arcade.appdata.xml.in.h:2
+msgid ""
+"GNOME Video Arcade is a simple front-end application for MAME (Multiple "
+"Arcade Machine Emulator) allowing you to play classic arcade games on your "
+"computer."
+msgstr ""
+
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
 msgstr "Video Arcade"
@@ -377,7 +385,7 @@ msgid ""
 "subset of them (see \"columns\")."
 msgstr ""
 "Oversigt over alle tilgængelige kolonnenavne. Brugeren kan vælge kun at vise "
-"en del af dem (se \"kolonner\")."
+"en del af dem (se “kolonner”)."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
 msgid "Save and restore state"
@@ -433,7 +441,7 @@ msgstr "Filnavn for ROM-fejl"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
 msgid "Suggested filename for the ROM error \"Save As\" dialog."
-msgstr "Foreslået filnavn for \"Gem som\"-dialogen for ROM-fejl."
+msgstr "Foreslået filnavn for “Gem som”-dialogen for ROM-fejl."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
 msgid "Properties height"
@@ -494,10 +502,10 @@ msgid ""
 "the match. Example: (manufacturer, Williams). Empty values indicate the "
 "completion feature was not used in the most recent search."
 msgstr ""
-"Det senest valgte match fra en liste over fuldførte søgninger. Den første værdi er "
-"matchets kolonnenanvn, og den anden værdi er teksten på matchet. Eksempel: "
-"(producent, Nielsen). Blanke værdier indikerer, at fuldførelsesfunktionen "
-"ikke blev brugt i den seneste søgning."
+"Det senest valgte match fra en liste over fuldførte søgninger. Den første "
+"værdi er matchets kolonnenanvn, og den anden værdi er teksten på matchet. "
+"Eksempel: (producent, Nielsen). Blanke værdier indikerer, at "
+"fuldførelsesfunktionen ikke blev brugt i den seneste søgning."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:27
 msgid "Selected view"
@@ -529,9 +537,9 @@ msgid ""
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
-"Den første værdi er navnet på den seneste sorterede kolonne (eller \"default"
-"\" for standardsortering), og den anden værdi er sorteringsrækkefølgen. "
-"Falsk angiver opadstigende rækkefølge."
+"Den første værdi er navnet på den seneste sorterede kolonne (eller “default” "
+"for standardsortering), og den anden værdi er sorteringsrækkefølgen. Falsk "
+"angiver opadstigende rækkefølge."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
 msgid "Sound muted"
@@ -625,7 +633,7 @@ msgstr "Fjern kolonne %s"
 #: ../src/gva-columns.c:301
 #, c-format
 msgid "Remove the \"%s\" column from the game list"
-msgstr "Fjern kolonnen \"%s\" fra spillisten"
+msgstr "Fjern kolonnen “%s” fra spillisten"
 
 #: ../src/gva-columns.c:867
 msgid "Click here to remove from favorites"
@@ -718,11 +726,11 @@ msgstr "Ugyldigt eller et ikke understøttet INP-filformat"
 
 #: ../src/gva-main.c:242
 msgid "Building game database..."
-msgstr "Bygger spildatabase..."
+msgstr "Bygger spildatabase …"
 
 #: ../src/gva-main.c:302
 msgid "Analyzing ROM files..."
-msgstr "Analyserer ROM-filer..."
+msgstr "Analyserer ROM-filer …"
 
 #: ../src/gva-main.c:986
 msgid "Search for any of the following:"
@@ -997,7 +1005,7 @@ msgstr "Tilføj kolonne %s"
 #: ../src/gva-ui.c:924
 #, c-format
 msgid "Add a \"%s\" column to the game list"
-msgstr "Tilføj en \"%s\"-kolonne til spillisten"
+msgstr "Tilføj en “%s”-kolonne til spillisten"
 
 #: ../src/main.c:53
 msgid "Build the games database"
@@ -1115,10 +1123,10 @@ msgstr "_Gennemgå ROM-filer"
 #~ msgstr "Kunne ikke afspille musik"
 
 #~ msgid "Buffering %d%%..."
-#~ msgstr "Lagrer %d%%..."
+#~ msgstr "Lagrer %d%% …"
 
 #~ msgid "Connecting..."
-#~ msgstr "Forbinder..."
+#~ msgstr "Forbinder …"
 
 #~ msgid ""
 #~ "This program is not configured to show detailed number of players "
