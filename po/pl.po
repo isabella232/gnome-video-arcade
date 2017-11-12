@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-05 15:28+0100\n"
-"PO-Revision-Date: 2017-11-05 15:38+0100\n"
+"POT-Creation-Date: 2017-11-12 19:24+0100\n"
+"PO-Revision-Date: 2017-11-12 19:25+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -28,7 +28,7 @@ msgid "Show next game"
 msgstr "Wyświetla następną grę"
 
 #: ../data/gnome-video-arcade.builder.h:3
-msgid "Play _Back..."
+msgid "Play _Back…"
 msgstr "_Odtwórz…"
 
 #: ../data/gnome-video-arcade.builder.h:4
@@ -64,7 +64,7 @@ msgid "Remove the selected game from my list of favorites"
 msgstr "Usuwa zaznaczoną grę z listy ulubionych"
 
 #: ../data/gnome-video-arcade.builder.h:12
-msgid "Save _As..."
+msgid "Save _As…"
 msgstr "_Zapisz jako…"
 
 #: ../data/gnome-video-arcade.builder.h:13
@@ -72,7 +72,7 @@ msgid "Save ROM errors to a file"
 msgstr "Zapisuje błędy pliku ROM do pliku"
 
 #: ../data/gnome-video-arcade.builder.h:14
-msgid "S_earch..."
+msgid "S_earch…"
 msgstr "_Znajdź…"
 
 #: ../data/gnome-video-arcade.builder.h:15
@@ -181,7 +181,7 @@ msgstr "<b>Ta gra zawiera znane błędy:</b>"
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
-msgid "• The colors aren't 100% accurate."
+msgid "• The colors aren’t 100% accurate."
 msgstr "• Kolory nie są dokładne w 100%."
 
 #: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
@@ -190,12 +190,12 @@ msgstr "• Kolory są całkowicie błędne."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
-msgid "• The video emulation isn't 100% accurate."
+msgid "• The video emulation isn’t 100% accurate."
 msgstr "• Emulacja obrazu nie jest dokładna w 100%."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
-msgid "• The sound emulation isn't 100% accurate."
+msgid "• The sound emulation isn’t 100% accurate."
 msgstr "• Emulacja dźwięku nie jest dokładna w 100%."
 
 #: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
@@ -207,11 +207,11 @@ msgid "• Screen flipping in cocktail mode is not supported."
 msgstr "• Odwracanie ekranu w trybie koktajlowym nie jest obsługiwane."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
-msgid "• <b>THIS GAME DOESN'T WORK.</b>"
+msgid "• <b>THIS GAME DOESN’T WORK.</b>"
 msgstr "• <b>TA GRA NIE DZIAŁA.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
-msgid "• The game has protection which isn't fully emulated."
+msgid "• The game has protection which isn’t fully emulated."
 msgstr "• Gra ma zabezpieczenie, które nie jest w pełni emulowane."
 
 #: ../data/gnome-video-arcade.builder.h:49
@@ -375,7 +375,7 @@ msgstr "Wszystkie dostępne nazwy kolumn"
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
-"subset of them (see \"columns\")."
+"subset of them (see “columns”)."
 msgstr ""
 "Lista wszystkich dostępnych nazw kolumn. Użytkownik może wybrać wyświetlanie "
 "tylko ich podzestawu (proszę zobaczyć „columns”)."
@@ -413,7 +413,7 @@ msgid "Favorite games"
 msgstr "Ulubione gry"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
-msgid "List of the user's favorite games."
+msgid "List of the user’s favorite games."
 msgstr "Lista ulubionych gier użytkownika."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
@@ -434,7 +434,7 @@ msgid "ROM error filename"
 msgstr "Nazwa pliku błędów ROM"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
-msgid "Suggested filename for the ROM error \"Save As\" dialog."
+msgid "Suggested filename for the ROM error “Save As” dialog."
 msgstr "Sugerowana nazwa pliku dla okna dialogowego błędów ROM „Zapisz jako”."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
@@ -528,7 +528,7 @@ msgstr "Porządkowana kolumna i kolejność porządkowania"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
 msgid ""
-"The first value is the most recently sorted column name (or \"default\" for "
+"The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
@@ -628,7 +628,7 @@ msgstr "Usuń kolumnę %s"
 
 #: ../src/gva-columns.c:301
 #, c-format
-msgid "Remove the \"%s\" column from the game list"
+msgid "Remove the “%s” column from the game list"
 msgstr "Usuwa kolumnę „%s” z listy gier"
 
 #: ../src/gva-columns.c:867
@@ -721,11 +721,11 @@ msgid "Invalid or unsupported INP file format"
 msgstr "Nieprawidłowy lub nieobsługiwany format pliku INP"
 
 #: ../src/gva-main.c:242
-msgid "Building game database..."
+msgid "Building game database…"
 msgstr "Budowanie bazy danych gier…"
 
 #: ../src/gva-main.c:302
-msgid "Analyzing ROM files..."
+msgid "Analyzing ROM files…"
 msgstr "Analizowanie plików ROM…"
 
 #: ../src/gva-main.c:986
@@ -1000,7 +1000,7 @@ msgstr "Dodaj kolumnę %s"
 
 #: ../src/gva-ui.c:924
 #, c-format
-msgid "Add a \"%s\" column to the game list"
+msgid "Add a “%s” column to the game list"
 msgstr "Dodaje kolumnę „%s” do listy gier"
 
 #: ../src/main.c:53
