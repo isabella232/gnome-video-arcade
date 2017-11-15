@@ -1,12 +1,13 @@
 # German translation of gnome-video-arcade.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2015, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "video-arcade&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2015-08-27 00:47+0000\n"
-"PO-Revision-Date: 2015-12-30 18:22+0100\n"
+"POT-Creation-Date: 2017-11-09 17:30+0000\n"
+"PO-Revision-Date: 2017-11-15 20:05+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: ../data/gnome-video-arcade.builder.h:1
 msgid "Add to _Favorites"
@@ -25,8 +26,8 @@ msgid "Show next game"
 msgstr "Nächstes Spiel anzeigen"
 
 #: ../data/gnome-video-arcade.builder.h:3
-msgid "Play _Back..."
-msgstr "Wieder_geben"
+msgid "Play _Back…"
+msgstr "Wiederge_ben …"
 
 #: ../data/gnome-video-arcade.builder.h:4
 msgid "Play back the selected game recording"
@@ -63,15 +64,15 @@ msgstr ""
 "Das ausgewählte Spiel aus der Liste meiner bevorzugten Spiele entfernen"
 
 #: ../data/gnome-video-arcade.builder.h:12
-msgid "Save _As..."
-msgstr "Speichern _unter …"
+msgid "Save _As…"
+msgstr "_Speichern unter …"
 
 #: ../data/gnome-video-arcade.builder.h:13
 msgid "Save ROM errors to a file"
 msgstr "ROM-Fehler in einer Datei speichern"
 
 #: ../data/gnome-video-arcade.builder.h:14
-msgid "S_earch..."
+msgid "S_earch…"
 msgstr "_Suchen …"
 
 #: ../data/gnome-video-arcade.builder.h:15
@@ -119,6 +120,7 @@ msgid "Show my search results"
 msgstr "Meine Suchergebnisse anzeigen"
 
 #: ../data/gnome-video-arcade.builder.h:26
+#: ../data/gnome-video-arcade.appdata.xml.in.h:1
 #: ../data/gnome-video-arcade.desktop.in.h:1
 msgid "GNOME Video Arcade"
 msgstr "GNOME Video Arcade"
@@ -180,7 +182,7 @@ msgstr "<b>Zu diesem Spiel sind Probleme bekannt:</b>"
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
-msgid "• The colors aren't 100% accurate."
+msgid "• The colors aren’t 100% accurate."
 msgstr "• Die Farben sind nicht 100% akkurat."
 
 #: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
@@ -189,12 +191,12 @@ msgstr "• Die Farben sind völlig falsch."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
-msgid "• The video emulation isn't 100% accurate."
+msgid "• The video emulation isn’t 100% accurate."
 msgstr "• Die Video-Emulation ist nicht 100% akkurat."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
-msgid "• The sound emulation isn't 100% accurate."
+msgid "• The sound emulation isn’t 100% accurate."
 msgstr "• Die Klang-Emulation ist nicht 100% akkurat."
 
 #: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
@@ -206,11 +208,11 @@ msgid "• Screen flipping in cocktail mode is not supported."
 msgstr "• Umdrehen des Bildschirms im Cocktail-Modus wird nicht unterstützt."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
-msgid "• <b>THIS GAME DOESN'T WORK.</b>"
+msgid "• <b>THIS GAME DOESN’T WORK.</b>"
 msgstr "• <b>DIESES SPIEL FUKTIONIERT NICHT.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
-msgid "• The game has protection which isn't fully emulated."
+msgid "• The game has protection which isn’t fully emulated."
 msgstr ""
 "• Das Spiel hat eine Schutzfunktion, die nicht vollständig emuliert werden "
 "kann."
@@ -245,7 +247,7 @@ msgstr "Technisch"
 
 #: ../data/gnome-video-arcade.builder.h:56
 msgid "Recorded Games"
-msgstr "Aufgezeichnete Spiele:"
+msgstr "Aufgezeichnete Spiele"
 
 #: ../data/gnome-video-arcade.builder.h:57
 msgid "Delete the selected game recordings"
@@ -354,6 +356,16 @@ msgstr ""
 msgid "Columns"
 msgstr "Spalten"
 
+#: ../data/gnome-video-arcade.appdata.xml.in.h:2
+msgid ""
+"GNOME Video Arcade is a simple front-end application for MAME (Multiple "
+"Arcade Machine Emulator) allowing you to play classic arcade games on your "
+"computer."
+msgstr ""
+"GNOME Video Arcade ist eine einfache auf MAME (Multiple Arcade Machine "
+"Emulator) aufsetzende Anwendung, mit der Sie klassische Arcade-Spiele auf "
+"Ihrem Rechner ausführen können."
+
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
 msgstr "Video Arcade"
@@ -369,10 +381,10 @@ msgstr "Alle verfügbaren Spaltennamen"
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
-"subset of them (see \"columns\")."
+"subset of them (see “columns”)."
 msgstr ""
 "Liste aller verfügbaren Spaltennamen. Der Benutzer kann auswählen, ob nur "
-"ein bestimmter Teil davon angezeigt wird (siehe »Spalten«) "
+"ein bestimmter Teil davon angezeigt wird (siehe »Spalten«)."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
 msgid "Save and restore state"
@@ -408,7 +420,7 @@ msgid "Favorite games"
 msgstr "Bevorzugte Spiele"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
-msgid "List of the user's favorite games."
+msgid "List of the user’s favorite games."
 msgstr "Liste der bevorzugten Spiele des Benutzers."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
@@ -429,7 +441,7 @@ msgid "ROM error filename"
 msgstr "Name der ROM-Fehlerdatei"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
-msgid "Suggested filename for the ROM error \"Save As\" dialog."
+msgid "Suggested filename for the ROM error “Save As” dialog."
 msgstr ""
 "Vorgeschlagener Dateiname für den »Speichern unter«-Dialog für ROM-Fehler."
 
@@ -524,7 +536,7 @@ msgstr "Spaltensortierung und Reihenfolge"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
 msgid ""
-"The first value is the most recently sorted column name (or \"default\" for "
+"The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
@@ -588,7 +600,7 @@ msgstr "Y-Koordinate des Fensters"
 msgid "The Y coordinate of the main window."
 msgstr "Die Y-Koordinate des Hauptfensters."
 
-#: ../src/gva-audit.c:236
+#: ../src/gva-audit.c:249
 msgid "Save As"
 msgstr "Speichern unter"
 
@@ -623,7 +635,7 @@ msgstr "Spalte %s entfernen"
 
 #: ../src/gva-columns.c:301
 #, c-format
-msgid "Remove the \"%s\" column from the game list"
+msgid "Remove the “%s” column from the game list"
 msgstr "Spalte »%s« aus der Spieleliste entfernen"
 
 #: ../src/gva-columns.c:867
@@ -666,47 +678,47 @@ msgstr "Bevorzugt"
 msgid "Driver"
 msgstr "Treiber"
 
-#: ../src/gva-columns.c:1008
+#: ../src/gva-columns.c:1010
 msgid "Samples"
 msgstr "Samples"
 
-#: ../src/gva-columns.c:1010
+#: ../src/gva-columns.c:1012
 msgid "Title"
 msgstr "Titel"
 
-#: ../src/gva-columns.c:1013
+#: ../src/gva-columns.c:1015
 msgid "Year"
 msgstr "Jahr"
 
-#: ../src/gva-columns.c:1016 ../src/gva-main.c:1000
+#: ../src/gva-columns.c:1018 ../src/gva-main.c:1000
 msgid "Manufacturer"
 msgstr "Hersteller"
 
-#: ../src/gva-columns.c:1022
+#: ../src/gva-columns.c:1024
 msgid "Players"
 msgstr "Spieler"
 
-#: ../src/gva-columns.c:1025
+#: ../src/gva-columns.c:1027
 msgid "Players (Alt.)"
 msgstr "Spieler (Abw.)"
 
-#: ../src/gva-columns.c:1028
+#: ../src/gva-columns.c:1030
 msgid "Players (Sim.)"
 msgstr "Spieler (Glz.)"
 
-#: ../src/gva-columns.c:1033
+#: ../src/gva-columns.c:1035
 msgid "Status"
 msgstr "Status"
 
-#: ../src/gva-columns.c:1044
+#: ../src/gva-columns.c:1046
 msgid "Last Played"
 msgstr "Zuletzt gespielt"
 
-#: ../src/gva-columns.c:1046
+#: ../src/gva-columns.c:1048
 msgid "Comment"
 msgstr "Kommentar"
 
-#: ../src/gva-columns.c:1050
+#: ../src/gva-columns.c:1052
 msgid "Played On"
 msgstr "Gespielt auf"
 
@@ -716,11 +728,11 @@ msgid "Invalid or unsupported INP file format"
 msgstr "Ungültiges oder nicht unterstütztes INP-Dateiformat"
 
 #: ../src/gva-main.c:242
-msgid "Building game database..."
+msgid "Building game database…"
 msgstr "Spiele-Datenbank wird erstellt …"
 
 #: ../src/gva-main.c:302
-msgid "Analyzing ROM files..."
+msgid "Analyzing ROM files…"
 msgstr "ROM-Dateien werden analysiert …"
 
 #: ../src/gva-main.c:986
@@ -744,12 +756,12 @@ msgstr "BIOS-Name"
 msgid "Driver Name"
 msgstr "Treibername"
 
-#: ../src/gva-mame.c:144
+#: ../src/gva-mame.c:203
 #, c-format
 msgid "Could not determine emulator version"
 msgstr "Emulatorversion konnte nicht ermittelt werden"
 
-#: ../src/gva-mame.c:314
+#: ../src/gva-mame.c:358
 #, c-format
 msgid "%s: No such configuration key"
 msgstr "%s: Kein solcher Konfigurationsschlüssel"
@@ -990,7 +1002,7 @@ msgstr "%s-Spalte hinzufügen"
 
 #: ../src/gva-ui.c:924
 #, c-format
-msgid "Add a \"%s\" column to the game list"
+msgid "Add a “%s” column to the game list"
 msgstr "Eine Spalte »%s« zur Spieleliste hinzufügen"
 
 #: ../src/main.c:53
@@ -1056,95 +1068,3 @@ msgstr "Prüfung über_springen"
 #: ../src/main.c:167
 msgid "_Audit ROM Files"
 msgstr "ROM-D_ateien überprüfen"
-
-#~ msgid "&#x2022; <b>THIS GAME DOESN'T WORK.</b>"
-#~ msgstr "&#x2022; <b>DIESES SPIEL FUNKTIONIERT NICHT.</b>"
-
-#~ msgid "&#x2022; Screen flipping in cocktail mode is not supported."
-#~ msgstr ""
-#~ "&#x2022; Umdrehen des Bildschirms im Cocktail-Modus wird nicht "
-#~ "unterstützt."
-
-#~ msgid "&#x2022; The colors are completely wrong."
-#~ msgstr "&#x2022; Die Farben sind völlig falsch."
-
-#~ msgid "&#x2022; The colors aren't 100% accurate."
-#~ msgstr "&#x2022; Die Farben sind nicht 100% akkurat."
-
-#~ msgid "&#x2022; The game has protection which isn't fully emulated."
-#~ msgstr ""
-#~ "&#x2022; Das Spiel hat eine Schutzfunktion, die nicht vollständig "
-#~ "emuliert werden kann."
-
-#~ msgid "&#x2022; The game lacks sound."
-#~ msgstr "&#x2022; Das Spiel bietet keine Klänge."
-
-#~ msgid "&#x2022; The sound emulation isn't 100% accurate."
-#~ msgstr "&#x2022; Die Klang-Emulation ist nicht 100% akkurat."
-
-#~ msgid "&#x2022; The video emulation isn't 100% accurate."
-#~ msgstr "&#x2022; Die Video-Emulation ist nicht 100% akkurat."
-
-#~ msgid "<small></small>"
-#~ msgstr "<small></small>"
-
-#~ msgid "Gallery"
-#~ msgstr "Galerie"
-
-#~ msgid "Play a music clip"
-#~ msgstr "Einen Audioclip abspielen"
-
-#~ msgid "Auto-play music clip"
-#~ msgstr "Musik automatisch abspielen"
-
-#~ msgid ""
-#~ "Enable automatic playing of in-game music clips. If true, and a music "
-#~ "clip is available for the selected game, the clip will automatically "
-#~ "begin playing when the user opens the Properties window or when the user "
-#~ "selects a different game while the Properties window is visible. Music "
-#~ "clips are streamed from http://www.arcade-history.com/."
-#~ msgstr ""
-#~ "Aktivierung des automatischen Abspielens der im Spiel enthaltenen "
-#~ "Audioclips. Falls »wahr« und ein Audio-Clip für das gewählte Spiel "
-#~ "verfügbar ist, wird dieser Clip automatisch abgespielt, wenn der Benutzer "
-#~ "entweder das Eigenschaftsfenster öffnet oder ein anderes Spiel gewählt "
-#~ "wird, während das Eigenschaftsfenster geöffnet ist. Die Audio-Clips "
-#~ "kommen als Datenstrom von http://www.arcade-history.com/."
-
-#~ msgid "This program is not configured to show category information."
-#~ msgstr ""
-#~ "Dieses Programm ist nicht dafür konfiguriert, Kategorie-Informationen "
-#~ "anzuzeigen."
-
-#~ msgid "This program is not configured to show history information."
-#~ msgstr ""
-#~ "Dieses Programm ist nicht dazu konfiguriert, geschichtliche Informationen "
-#~ "anzuzeigen."
-
-#~ msgid "No music available"
-#~ msgstr "Keine Musik verfügbar"
-
-#~ msgid "Unable to play music"
-#~ msgstr "Musik kann nicht abgespielt werden"
-
-#~ msgid "Buffering %d%%..."
-#~ msgstr "%d%% wird gepuffert …"
-
-#~ msgid "Connecting..."
-#~ msgstr "Verbindung wird hergestellt ..."
-
-#~ msgid ""
-#~ "This program is not configured to show detailed number of players "
-#~ "information."
-#~ msgstr ""
-#~ "Dieses Programm ist nicht dazu konfiguriert, detaillierte Informationen "
-#~ "über die anzahl der Spieler anzuzeigen."
-
-#~ msgid "Add the selected game to my list of favorites"
-#~ msgstr "Das ausgewählte Spiel zu meinen bevorzugten Spielen hinzufügen"
-
-#~ msgid "Play music _automatically"
-#~ msgstr "Musik _automatisch abspielen"
-
-#~ msgid "Automatically play a music clip from the selected game"
-#~ msgstr "Automatisch einen Audioclip des gewählten Spiels abspielen"
