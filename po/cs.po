@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-video-arcade master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "video-arcade&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2017-11-01 22:36+0000\n"
-"PO-Revision-Date: 2017-11-02 09:45+0100\n"
+"POT-Creation-Date: 2017-11-09 17:30+0000\n"
+"PO-Revision-Date: 2017-11-18 16:12+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -28,7 +28,7 @@ msgid "Show next game"
 msgstr "Zobrazit následující hru"
 
 #: ../data/gnome-video-arcade.builder.h:3
-msgid "Play _Back..."
+msgid "Play _Back…"
 msgstr "_Přehrát…"
 
 #: ../data/gnome-video-arcade.builder.h:4
@@ -64,16 +64,16 @@ msgid "Remove the selected game from my list of favorites"
 msgstr "Odebrat vybranou hru z mého seznamu oblíbených"
 
 #: ../data/gnome-video-arcade.builder.h:12
-msgid "Save _As..."
-msgstr "Uložit _jako…"
+msgid "Save _As…"
+msgstr "Uložit j_ako…"
 
 #: ../data/gnome-video-arcade.builder.h:13
 msgid "Save ROM errors to a file"
 msgstr "Uložit chyby ROM do souboru"
 
 #: ../data/gnome-video-arcade.builder.h:14
-msgid "S_earch..."
-msgstr "_Hledat…"
+msgid "S_earch…"
+msgstr "Hl_edat…"
 
 #: ../data/gnome-video-arcade.builder.h:15
 msgid "Show a custom list of games"
@@ -181,7 +181,7 @@ msgstr "<b>Existují známé problémy s touto hrou:</b>"
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
-msgid "• The colors aren't 100% accurate."
+msgid "• The colors aren’t 100% accurate."
 msgstr "• Barvy nejsou 100% správně."
 
 #: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
@@ -190,12 +190,12 @@ msgstr "• Barvy jsou úplně špatně."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
-msgid "• The video emulation isn't 100% accurate."
+msgid "• The video emulation isn’t 100% accurate."
 msgstr "• Emulace obrazu není 100% správná."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
-msgid "• The sound emulation isn't 100% accurate."
+msgid "• The sound emulation isn’t 100% accurate."
 msgstr "• Emulace zvuku není 100% správná."
 
 #: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
@@ -207,11 +207,11 @@ msgid "• Screen flipping in cocktail mode is not supported."
 msgstr "• Překlápění obrazu ve smíšeném režimu není podporované."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
-msgid "• <b>THIS GAME DOESN'T WORK.</b>"
-msgstr "• <b>TATO HRA NEPRACUJE.</b>"
+msgid "• <b>THIS GAME DOESN’T WORK.</b>"
+msgstr "• <b>TATO HRA NEFUNGUJE.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
-msgid "• The game has protection which isn't fully emulated."
+msgid "• The game has protection which isn’t fully emulated."
 msgstr "• Hra má ochranu, která není plně emulovaná."
 
 #: ../data/gnome-video-arcade.builder.h:49
@@ -376,7 +376,7 @@ msgstr "Všechny dostupné názvy sloupců"
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
-"subset of them (see \"columns\")."
+"subset of them (see “columns”)."
 msgstr ""
 "Seznam všech dostupných názvů sloupců. Uživatel si může nechat zobrazit jen "
 "část z nich (viz „columns“)."
@@ -413,7 +413,7 @@ msgid "Favorite games"
 msgstr "Oblíbené hry"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
-msgid "List of the user's favorite games."
+msgid "List of the user’s favorite games."
 msgstr "Seznam oblíbených her uživatele."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
@@ -433,7 +433,7 @@ msgid "ROM error filename"
 msgstr "Název souboru s chybami ROM"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
-msgid "Suggested filename for the ROM error \"Save As\" dialog."
+msgid "Suggested filename for the ROM error “Save As” dialog."
 msgstr ""
 "Navrhovaný název souboru pro uložení chyb ROM v dialogovém okně „Uložit "
 "jako“."
@@ -528,7 +528,7 @@ msgstr "Sloupec a pořadí řazení"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
 msgid ""
-"The first value is the most recently sorted column name (or \"default\" for "
+"The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
@@ -627,7 +627,7 @@ msgstr "Odebrat sloupec %s"
 
 #: ../src/gva-columns.c:301
 #, c-format
-msgid "Remove the \"%s\" column from the game list"
+msgid "Remove the “%s” column from the game list"
 msgstr "Odebrat sloupec „%s“ ze seznamu her"
 
 #: ../src/gva-columns.c:867
@@ -720,11 +720,11 @@ msgid "Invalid or unsupported INP file format"
 msgstr "Neplatný nebo nepodporovaný formát souboru INP"
 
 #: ../src/gva-main.c:242
-msgid "Building game database..."
-msgstr "Buduje se databáze her…"
+msgid "Building game database…"
+msgstr "Sestavuje se databáze her…"
 
 #: ../src/gva-main.c:302
-msgid "Analyzing ROM files..."
+msgid "Analyzing ROM files…"
 msgstr "Analyzují se soubory ROM…"
 
 #: ../src/gva-main.c:986
@@ -995,7 +995,7 @@ msgstr "Přidat sloupec %s"
 
 #: ../src/gva-ui.c:924
 #, c-format
-msgid "Add a \"%s\" column to the game list"
+msgid "Add a “%s” column to the game list"
 msgstr "Přidat sloupec „%s“ do seznamu her"
 
 #: ../src/main.c:53
@@ -1056,46 +1056,3 @@ msgstr "Pře_skočit prověření"
 #: ../src/main.c:167
 msgid "_Audit ROM Files"
 msgstr "Pro_věřit soubory ROM"
-
-#~ msgid "<small></small>"
-#~ msgstr "<small></small>"
-
-#~ msgid "Automatically play a music clip from the selected game"
-#~ msgstr "Automaticky přehrávat hudbu vybrané hry"
-
-#~ msgid "Gallery"
-#~ msgstr "Galerie"
-
-#~ msgid "Play a music clip"
-#~ msgstr "Přehrát hudební klip"
-
-#~ msgid "Play music _automatically"
-#~ msgstr "Přehrávat hudbu _automaticky"
-
-#~ msgid "Auto-play music clip"
-#~ msgstr "Automaticky přehrát hudební klip"
-
-#~ msgid ""
-#~ "Enable automatic playing of in-game music clips. If true, and a music "
-#~ "clip is available for the selected game, the clip will automatically "
-#~ "begin playing when the user opens the Properties window or when the user "
-#~ "selects a different game while the Properties window is visible. Music "
-#~ "clips are streamed from http://www.arcade-history.com/."
-#~ msgstr ""
-#~ "Zapne automatické přehrávání hudebního klipu ve hře. Pokud je zapnuto, a "
-#~ "hudební klip je pro vybranou hru dostupný, bude tento automaticky "
-#~ "přehrán, když uživatel otevře okno Vlastnosti nebo když uživatel vybere "
-#~ "jinou hru ve chvíli, kdy je okno vlastnosti zobrazené. Hudební klipy jsou "
-#~ "přehrávány proudově z http://www.arcade-history.com/."
-
-#~ msgid "No music available"
-#~ msgstr "Není k dispozici žádná hudba"
-
-#~ msgid "Unable to play music"
-#~ msgstr "Nelze přehrát hudbu"
-
-#~ msgid "Buffering %d%%..."
-#~ msgstr "Ukládá se do vyrovnávací paměti %d%%…"
-
-#~ msgid "Connecting..."
-#~ msgstr "Připojuje se…"
