@@ -70,6 +70,7 @@ GSettings *     gva_get_settings                (void);
 SoupSession *   gva_get_soup_session            (void);
 void            gva_get_time_elapsed            (GTimeVal *start_time,
                                                  GTimeVal *time_elapsed);
+const gchar *   gva_get_user_cache_dir          (void);
 const gchar *   gva_get_user_data_dir           (void);
 void            gva_help_display                (GtkWindow *parent,
                                                  const gchar *link_id);

@@ -321,6 +321,34 @@ gva_get_time_elapsed (GTimeVal *start_time,
 }
 
 /**
+ * gva_get_user_cache_dir:
+ *
+ * Returns the directory where user-specific cached application files
+ * are stored.  The function also creates the directory the first time
+ * it is called.
+ *
+ * Returns: user-specific application cache directory
+ **/
+const gchar *
+gva_get_user_cache_dir (void)
+{
+        static gchar *user_cache_dir = NULL;
+
+        if (G_UNLIKELY (user_cache_dir == NULL))
+        {
+                user_cache_dir = g_build_filename (
+                        g_get_user_cache_dir (), PACKAGE, NULL);
+
+                if (g_mkdir_with_parents (user_cache_dir, 0700) < 0)
+                        g_warning (
+                                "Unable to create %s: %s",
+                                user_cache_dir, g_strerror (errno));
+        }
+
+        return user_cache_dir;
+}
+
+/**
  * gva_get_user_data_dir:
  *
  * Returns the directory where user-specific application data is stored.
