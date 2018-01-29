@@ -14,6 +14,6 @@ HELP_MEDIA = \
 	figures/gva_recorded_games.png		\
 	figures/gva_search_window.png
 
-HELP_LINGUAS = cs da de el es fr it sl sv
+HELP_LINGUAS = cs da de el es fr it pl sl sv
 
 -include $(top_srcdir)/git.mk
