@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../data/gnome-video-arcade.builder.h:16
 msgid "Add to _Favorites"
-msgstr "Afegeix als _favorits"
+msgstr "Afegeix als _preferits"
 
 #: ../data/gnome-video-arcade.builder.h:17
 msgid ""
@@ -146,7 +146,7 @@ msgstr "Historial"
 
 #: ../data/gnome-video-arcade.builder.h:28
 msgid "Only show my favorite games"
-msgstr "Mostra només els jocs favorits"
+msgstr "Mostra només els jocs preferits"
 
 #: ../data/gnome-video-arcade.builder.h:29
 msgid "Open the help documentation"
@@ -194,11 +194,11 @@ msgstr "Jocs enregistrats"
 
 #: ../data/gnome-video-arcade.builder.h:40
 msgid "Remove from _Favorites"
-msgstr "Suprimeix dels _favorits"
+msgstr "Suprimeix dels _preferits"
 
 #: ../data/gnome-video-arcade.builder.h:41
 msgid "Remove the selected game from my list of favorites"
-msgstr "Suprimeix el joc seleccionat de la llista de favorits"
+msgstr "Suprimeix el joc seleccionat de la llista de preferits"
 
 #: ../data/gnome-video-arcade.builder.h:42
 msgid "S_earch..."
@@ -292,7 +292,7 @@ msgstr "_Edita"
 
 #: ../data/gnome-video-arcade.builder.h:65
 msgid "_Favorite Games"
-msgstr "Jocs _favorits"
+msgstr "Jocs _preferits"
 
 #: ../data/gnome-video-arcade.builder.h:66
 msgid "_Game"
@@ -412,7 +412,7 @@ msgstr ""
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:6
 msgid "Favorite games"
-msgstr "Jocs favorits"
+msgstr "Jocs preferits"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:7
 msgid ""
@@ -635,11 +635,11 @@ msgstr "Suprimeix la columna «%s» de la llista de jocs"
 
 #: ../src/gva-columns.c:867
 msgid "Click here to remove from favorites"
-msgstr "Feu clic ací per suprimir-lo dels favorits"
+msgstr "Feu clic ací per suprimir-lo dels preferits"
 
 #: ../src/gva-columns.c:869
 msgid "Click here to add to favorites"
-msgstr "Feu clic ací per afegir-lo als favorits"
+msgstr "Feu clic ací per afegir-lo als preferits"
 
 #: ../src/gva-columns.c:961 ../src/gva-properties.c:410
 msgid "(Game Description Unknown)"
@@ -667,7 +667,7 @@ msgstr "Categoria"
 
 #: ../src/gva-columns.c:997
 msgid "Favorite"
-msgstr "Favorit"
+msgstr "Preferit"
 
 #: ../src/gva-columns.c:1000
 msgid "Driver"
@@ -933,8 +933,8 @@ msgstr[1] "Jocs disponibles"
 #: ../src/gva-tree-view.c:428
 msgid "Favorite Game"
 msgid_plural "Favorite Games"
-msgstr[0] "Joc favorit"
-msgstr[1] "Jocs favorits"
+msgstr[0] "Joc preferit"
+msgstr[1] "Jocs preferits"
 
 #: ../src/gva-tree-view.c:435
 msgid "Search Result"
@@ -1078,79 +1078,3 @@ msgstr "_Omet l'auditoria"
 msgid "_Audit ROM Files"
 msgstr "_Audita els fitxers ROM"
 
-#~ msgid "Database built in %ld.%ld seconds."
-#~ msgstr "S'ha construït la base de dades en %ld.%ld segons."
-
-#~ msgid "the user requested it"
-#~ msgstr "ho ha demanat l'usuari"
-
-#~ msgid "'s version changed"
-#~ msgstr "ha canviat de versió"
-
-#~ msgid "the database does not have a build ID"
-#~ msgstr "la base de dades no té un ID de construcció"
-
-#~ msgid "the MAME version could not be determined"
-#~ msgstr "la versió del MAME no s'ha pogut determinar"
-
-#~ msgid "the database build ID does not match the MAME version"
-#~ msgstr ""
-#~ "l'ID de construcció de la base de dades no coincideix amb la versió del "
-#~ "MAME"
-
-#~ msgid "the category file changed"
-#~ msgstr "ha canviat el fitxer de categoria"
-
-#~ msgid "Building database because %s."
-#~ msgstr "S'està construint la base de dades perquè %s."
-
-#~ msgid "Database seems up-to-date; no rebuild necessary."
-#~ msgstr "La base de dades sembla estar al dia, no cal reconstruir-la."
-
-#~ msgid "This program is not configured to show category information."
-#~ msgstr ""
-#~ "Aquest programa no està configurat per mostrar informació sobre la "
-#~ "categoria."
-
-#~ msgid "This program is not configured to show history information."
-#~ msgstr ""
-#~ "Aquest programa no està configurat per mostrar informació de l'historial."
-
-#~ msgid ""
-#~ "This program is not configured to show detailed number of players "
-#~ "information."
-#~ msgstr ""
-#~ "Aquest programa no està configurat per mostrar informació detallada sobre "
-#~ "el nombre de jugadors."
-
-#~ msgid "Sending KILL signal to process %d."
-#~ msgstr "S'està enviant el senyal KILL al procés %d."
-
-#~ msgid "&#x2022; <b>THIS GAME DOESN'T WORK.</b>"
-#~ msgstr "&#x2022; <b>AQUEST JOC NO FUNCIONA.</b>"
-
-#~ msgid "&#x2022; Screen flipping in cocktail mode is not supported."
-#~ msgstr ""
-#~ "&#x2022; La inversió de la pantalla en el mode <i>cocktail</i> no està "
-#~ "implementada."
-
-#~ msgid "&#x2022; The colors are completely wrong."
-#~ msgstr "&#x2022; Els colors són totalment incorrectes."
-
-#~ msgid "&#x2022; The colors aren't 100% accurate."
-#~ msgstr "&#x2022; Els colors no són acurats al 100%."
-
-#~ msgid "&#x2022; The game has protection which isn't fully emulated."
-#~ msgstr "&#x2022; Aquest joc té una protecció que no està totalment emulada."
-
-#~ msgid "&#x2022; The game lacks sound."
-#~ msgstr "&#x2022; A aquest joc li manca el so."
-
-#~ msgid "&#x2022; The sound emulation isn't 100% accurate."
-#~ msgstr "&#x2022; L'emulació del só no és acurada al 100%."
-
-#~ msgid "&#x2022; The video emulation isn't 100% accurate."
-#~ msgstr "&#x2022; L'emulació del vídeo no és acurada al 100%."
-
-#~ msgid "Add the selected game to my list of favorites"
-#~ msgstr "Afegeix el joc seleccionat a la llista de favorits"
