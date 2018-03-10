@@ -1,9 +1,9 @@
 # Danish translation of gnome-video-arcade.
-# Copyright (C) 2010-16 GNOME-projektet.
+# Copyright (C) 2010-18 GNOME-projektet.
 # This file is distributed under the same license as the gnome-video-arcade package.
 # Lars Christian Jensen <larschrjensen@gmail.com>, 2009.
 # Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010.
-# Alan Mortensen <alanmortensen.am@gmail.com>, 2016.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2016, 2018.
 # Korrekturlæsning: Kris Thomsen, 2009.
 # Korrekturlæsning: Torben Grøn Helligsø, 2009.
 #
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-video-arcade\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "video-arcade&keywords=I18N+L10N&component=General\n"
-"POT-Creation-Date: 2017-11-01 22:36+0000\n"
-"PO-Revision-Date: 2016-12-10 17:06+0100\n"
+"POT-Creation-Date: 2017-11-12 18:26+0000\n"
+"PO-Revision-Date: 2018-03-10 09:45+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -32,8 +32,8 @@ msgid "Show next game"
 msgstr "Vis næste spil"
 
 #: ../data/gnome-video-arcade.builder.h:3
-msgid "Play _Back..."
-msgstr "Af_spil …"
+msgid "Play _Back…"
+msgstr "Afsp_il …"
 
 #: ../data/gnome-video-arcade.builder.h:4
 msgid "Play back the selected game recording"
@@ -68,15 +68,15 @@ msgid "Remove the selected game from my list of favorites"
 msgstr "Fjern det valgte spil fra listen over mine foretrukne"
 
 #: ../data/gnome-video-arcade.builder.h:12
-msgid "Save _As..."
-msgstr "Gem _Som …"
+msgid "Save _As…"
+msgstr "Gem _som …"
 
 #: ../data/gnome-video-arcade.builder.h:13
 msgid "Save ROM errors to a file"
 msgstr "Gem ROM-fejl i en fil"
 
 #: ../data/gnome-video-arcade.builder.h:14
-msgid "S_earch..."
+msgid "S_earch…"
 msgstr "S_øg …"
 
 #: ../data/gnome-video-arcade.builder.h:15
@@ -185,7 +185,7 @@ msgstr "<b>Der er kendte problemer med dette spil:</b>"
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
-msgid "• The colors aren't 100% accurate."
+msgid "• The colors aren’t 100% accurate."
 msgstr "• Farverne er ikke 100 % korrekte."
 
 #: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
@@ -194,12 +194,12 @@ msgstr "• Farverne er helt forkerte."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
-msgid "• The video emulation isn't 100% accurate."
+msgid "• The video emulation isn’t 100% accurate."
 msgstr "• Videoemuleringen er ikke 100 % korrekt."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
-msgid "• The sound emulation isn't 100% accurate."
+msgid "• The sound emulation isn’t 100% accurate."
 msgstr "• Lydemuleringen er ikke 100 % korrekt."
 
 #: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
@@ -211,11 +211,11 @@ msgid "• Screen flipping in cocktail mode is not supported."
 msgstr "• Skærmvipning i cocktailtilstand er ikke understøttet."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
-msgid "• <b>THIS GAME DOESN'T WORK.</b>"
+msgid "• <b>THIS GAME DOESN’T WORK.</b>"
 msgstr "• <b>DETTE SPIL FUNGERER IKKE.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
-msgid "• The game has protection which isn't fully emulated."
+msgid "• The game has protection which isn’t fully emulated."
 msgstr "• Spillet har beskyttelse, hvilket ikke er fuldt ud emuleret."
 
 #: ../data/gnome-video-arcade.builder.h:49
@@ -365,6 +365,8 @@ msgid ""
 "Arcade Machine Emulator) allowing you to play classic arcade games on your "
 "computer."
 msgstr ""
+"GNOME Video Arcade er en enkel grænseflade til MAME (Multiple Arcade Machine "
+"Emulator), som lader dig spille klassiske arkadespil på din computer."
 
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
@@ -382,7 +384,7 @@ msgstr "Alle tilgængelige kolonnenavne"
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
-"subset of them (see \"columns\")."
+"subset of them (see “columns”)."
 msgstr ""
 "Oversigt over alle tilgængelige kolonnenavne. Brugeren kan vælge kun at vise "
 "en del af dem (se “kolonner”)."
@@ -420,7 +422,7 @@ msgid "Favorite games"
 msgstr "Foretrukne spil"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
-msgid "List of the user's favorite games."
+msgid "List of the user’s favorite games."
 msgstr "Oversigt over brugerens favoritspil."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
@@ -440,7 +442,7 @@ msgid "ROM error filename"
 msgstr "Filnavn for ROM-fejl"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
-msgid "Suggested filename for the ROM error \"Save As\" dialog."
+msgid "Suggested filename for the ROM error “Save As” dialog."
 msgstr "Foreslået filnavn for “Gem som”-dialogen for ROM-fejl."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
@@ -533,7 +535,7 @@ msgstr "Sorteringskolonne og -rækkefølge"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
 msgid ""
-"The first value is the most recently sorted column name (or \"default\" for "
+"The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
@@ -632,7 +634,7 @@ msgstr "Fjern kolonne %s"
 
 #: ../src/gva-columns.c:301
 #, c-format
-msgid "Remove the \"%s\" column from the game list"
+msgid "Remove the “%s” column from the game list"
 msgstr "Fjern kolonnen “%s” fra spillisten"
 
 #: ../src/gva-columns.c:867
@@ -725,11 +727,11 @@ msgid "Invalid or unsupported INP file format"
 msgstr "Ugyldigt eller et ikke understøttet INP-filformat"
 
 #: ../src/gva-main.c:242
-msgid "Building game database..."
+msgid "Building game database…"
 msgstr "Bygger spildatabase …"
 
 #: ../src/gva-main.c:302
-msgid "Analyzing ROM files..."
+msgid "Analyzing ROM files…"
 msgstr "Analyserer ROM-filer …"
 
 #: ../src/gva-main.c:986
@@ -1004,7 +1006,7 @@ msgstr "Tilføj kolonne %s"
 
 #: ../src/gva-ui.c:924
 #, c-format
-msgid "Add a \"%s\" column to the game list"
+msgid "Add a “%s” column to the game list"
 msgstr "Tilføj en “%s”-kolonne til spillisten"
 
 #: ../src/main.c:53
@@ -1068,6 +1070,12 @@ msgstr "_Udelad gennemgang"
 #: ../src/main.c:167
 msgid "_Audit ROM Files"
 msgstr "_Gennemgå ROM-filer"
+
+#~ msgid "Play _Back..."
+#~ msgstr "Af_spil …"
+
+#~ msgid "Save _As..."
+#~ msgstr "Gem _Som …"
 
 #~ msgid "&#x2022; <b>THIS GAME DOESN'T WORK.</b>"
 #~ msgstr "&#x2022; <b>DETTE SPIL FUNGERER IKKE.</b>"
