@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "video-arcade&keywords=I18N+L10N&component=General\n"
 "POT-Creation-Date: 2018-03-11 18:25+0000\n"
-"PO-Revision-Date: 2018-03-27 14:42+0200\n"
+"PO-Revision-Date: 2018-03-27 14:44+0200\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -205,7 +205,7 @@ msgstr "• Igri nedostaje zvuk."
 
 #: ../data/gnome-video-arcade.builder.h:46 ../src/gva-columns.c:812
 msgid "• Screen flipping in cocktail mode is not supported."
-msgstr ""
+msgstr "• Zamjena zaslona u koktel načinu nije podržana."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
 msgid "• <b>THIS GAME DOESN’T WORK.</b>"
