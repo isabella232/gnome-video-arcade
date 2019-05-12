@@ -77,7 +77,7 @@ msgid ""
 "time the game is started. It does not apply to recording or playing back "
 "games.</i></small>"
 msgstr ""
-"<small><i><b>Nota:</b> Establir això no tindrà efecte fins que s'execute el "
+"<small><i><b>Nota:</b> Establir això no tindrà efecte fins que s'executi el "
 "joc per segona vegada. No s'aplica a la gravació o reproducció de jocs.</i></"
 "small>"
 
@@ -88,7 +88,7 @@ msgid ""
 "recent ROM files.</i></small>"
 msgstr ""
 "<small><i>Si aquests jocs funcionaven amb versions anteriors del MAME, és "
-"probable que hagen canviat els seus requeriments de ROM. Si és així, haureu "
+"probable que hagin canviat els seus requeriments de ROM. Si és així, haureu "
 "d'obtenir fitxers ROM més recents.</i></small>"
 
 #: ../data/gnome-video-arcade.builder.h:16
@@ -320,7 +320,7 @@ msgstr "_Enregistra"
 
 #: ../data/gnome-video-arcade.builder.h:72
 msgid "_Restore previous state when starting a game"
-msgstr "_Restaura un estat anterior quan s'inicie un joc"
+msgstr "_Restaura un estat anterior quan s'iniciï un joc"
 
 #: ../data/gnome-video-arcade.builder.h:73
 msgid "_Start"
@@ -635,11 +635,11 @@ msgstr "Suprimeix la columna «%s» de la llista de jocs"
 
 #: ../src/gva-columns.c:867
 msgid "Click here to remove from favorites"
-msgstr "Feu clic ací per suprimir-lo dels preferits"
+msgstr "Feu clic aquí per suprimir-lo dels preferits"
 
 #: ../src/gva-columns.c:869
 msgid "Click here to add to favorites"
-msgstr "Feu clic ací per afegir-lo als preferits"
+msgstr "Feu clic aquí per afegir-lo als preferits"
 
 #: ../src/gva-columns.c:961 ../src/gva-properties.c:410
 msgid "(Game Description Unknown)"
@@ -1046,8 +1046,8 @@ msgid ""
 "more details and troubleshooting tips."
 msgstr ""
 "El GNOME Video Arcade no ha trobat cap fitxer ROM. És possible que el MAME "
-"no estiga configurat correctament, o que no hi haja cap fitxer ROM "
-"instaŀlat. Feu clic a <b>Ajuda</b> per obtenir-ne més detalls i consells per "
+"no estigui configurat correctament, o que no hi hagi cap fitxer ROM "
+"instal·lat. Feu clic a <b>Ajuda</b> per obtenir-ne més detalls i consells per "
 "resoldre problemes."
 
 #: ../src/main.c:152
