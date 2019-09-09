@@ -1,5 +1,5 @@
 # Turkish translation for gnome-video-arcade.
-# Copyright (C) 2011 gnome-video-arcade's COPYRIGHT HOLDER
+# Copyright (C) 2011-2019 gnome-video-arcade's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-video-arcade package.
 #
 # Volkan Yalçın <vlyalcin@gmail.com>, 2011.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-video-arcade master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/"
 "issues\n"
-"POT-Creation-Date: 2018-12-15 22:28+0000\n"
-"PO-Revision-Date: 2019-02-10 11:59+0200\n"
+"POT-Creation-Date: 2019-08-15 07:21+0000\n"
+"PO-Revision-Date: 2019-09-05 11:40+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -139,7 +139,7 @@ msgstr "_Oynu Başlat"
 
 #: ../data/gnome-video-arcade.builder.h:30
 msgid " "
-msgstr ""
+msgstr " "
 
 #: ../data/gnome-video-arcade.builder.h:31
 msgid "<big><b>Errors detected in ROM files</b></big>"
@@ -559,7 +559,7 @@ msgstr "Pencere yüksekliği"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:38
 msgid "The height of the main window."
-msgstr "Ana pencere yüksekliği"
+msgstr "Ana pencerenin yüksekliği."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:39
 msgid "Window maximized"
@@ -575,7 +575,7 @@ msgstr "Pencere genişliği"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:42
 msgid "The width of the main window."
-msgstr "Ana pencere genişliği."
+msgstr "Ana pencerenin genişliği."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:43
 msgid "Window X coordinate"
@@ -591,7 +591,7 @@ msgstr "Pencere Y koordinatı"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:46
 msgid "The Y coordinate of the main window."
-msgstr "Ana pencerenin Y koortinadı"
+msgstr "Ana pencerenin Y koortinadı."
 
 #: ../src/gva-audit.c:249
 msgid "Save As"
@@ -752,7 +752,7 @@ msgstr "Sürücü İsmi"
 #: ../src/gva-mame.c:203
 #, c-format
 msgid "Could not determine emulator version"
-msgstr "Öykünücü sürümü belirlenemedi."
+msgstr "Öykünücü sürümü belirlenemedi"
 
 #: ../src/gva-mame.c:358
 #, c-format
@@ -846,7 +846,7 @@ msgstr "Sekiz oyuncuya kadar dönüşümlü"
 
 #: ../src/gva-nplayers.c:280
 msgid "One or two players simultaneously"
-msgstr "Aynı anda "
+msgstr "Aynı anda bir veya iki oyuncu"
 
 #: ../src/gva-nplayers.c:283
 msgid "Up to three players simultaneously"
@@ -959,9 +959,9 @@ msgstr "Web sitesini ziyaret et"
 #: ../src/gva-ui.c:317
 msgid "translator-credits"
 msgstr ""
-"Volkan Yalçın <vlyalcin@gmail.com>, 2011.\n"
-"Muhammet Kara <muhammetk@gmail.com>, 2014.\n"
-"Sabri Ünal <libreajans@gmail.com>, 2019."
+"Volkan Yalçın <vlyalcin@gmail.com>\n"
+"Muhammet Kara <muhammetk@gmail.com>\n"
+"Sabri Ünal <libreajans@gmail.com>"
 
 #. Translators: This is passed through D-Bus as
 #. * the reason to inhibit GNOME screen saver.
