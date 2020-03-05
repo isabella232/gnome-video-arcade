@@ -159,7 +159,7 @@ msgid ""
 msgstr ""
 "<small><i>Ako su te igre radile s prijašnjom MAME inačicom, vjerojatno su se "
 "promijenili zahtjevi njihova ROM-a.  Ako je tako, morat ćete nabaviti "
-"najnovije ROM datoteke.</i></small"
+"najnovije ROM datoteke.</i></small>"
 
 #: ../data/gnome-video-arcade.builder.h:34
 msgid "Close this window"
