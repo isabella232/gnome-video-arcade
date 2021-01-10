@@ -1,4 +1,3 @@
-
 # Catalan translation of GNOME Video Arcade.
 # Copyright © 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-video-arcade package.
@@ -7,7 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-video-arcade 0.8.1\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/"
+"issues\n"
 "POT-Creation-Date: 2020-07-13 10:47+0000\n"
 "PO-Revision-Date: 2012-01-06 18:10+0100\n"
 "Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
@@ -152,8 +152,8 @@ msgstr ""
 
 #: ../data/gnome-video-arcade.builder.h:33
 msgid ""
-"<small><i>If these games worked with previous versions of MAME, it is likely"
-" their ROM requirements have changed.  If so, you will need to acquire more "
+"<small><i>If these games worked with previous versions of MAME, it is likely "
+"their ROM requirements have changed.  If so, you will need to acquire more "
 "recent ROM files.</i></small>"
 msgstr ""
 "<small><i>Si aquests jocs funcionaven amb versions anteriors del MAME, és "
@@ -335,8 +335,8 @@ msgid ""
 "games.</i></small>"
 msgstr ""
 "<small><i><b>Nota:</b> Establir això no tindrà efecte fins que s'executi el "
-"joc per segona vegada. No s'aplica a la gravació o reproducció de "
-"jocs.</i></small>"
+"joc per segona vegada. No s'aplica a la gravació o reproducció de jocs.</i></"
+"small>"
 
 #: ../data/gnome-video-arcade.builder.h:77
 msgid "<b>Game List</b>"
@@ -364,9 +364,9 @@ msgid ""
 "Arcade Machine Emulator) allowing you to play classic arcade games on your "
 "computer."
 msgstr ""
-"GNOME Video Arcade és una aplicació senzilla d'interfície per a MAME (emulador "
-"de màquines d'arcade múltiples) que us permet jugar a jocs arcade clàssics "
-"a l'ordinador."
+"GNOME Video Arcade és una aplicació senzilla d'interfície per a MAME "
+"(emulador de màquines d'arcade múltiples) que us permet jugar a jocs arcade "
+"clàssics a l'ordinador."
 
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
@@ -395,18 +395,18 @@ msgstr "Desa i restaura l'estat"
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:4
 msgid ""
 "Enable automatic restore at startup and save at exit. If true, the emulator "
-"will try to restore the previous state of the arcade machine when starting a"
-" game. If false, the emulator will boot the arcade machine from a cold "
-"start. This setting does not apply to recording games or playing back "
-"previously recorded games. In those cases the emulator will always reboot "
-"the arcade machine."
+"will try to restore the previous state of the arcade machine when starting a "
+"game. If false, the emulator will boot the arcade machine from a cold start. "
+"This setting does not apply to recording games or playing back previously "
+"recorded games. In those cases the emulator will always reboot the arcade "
+"machine."
 msgstr ""
 "Activa la restauració automàtica a l'inici i desa en sortir. Si és cert, "
 "l'emulador intentarà restaurar l'estat anterior de la màquina recreativa en "
-"iniciar un joc. Si és fals, l'emulador arrencarà la màquina recreativa des d'un"
-" inici en fred. Aquest ajustament no s'aplicarà a l'enregistrament de partides ni "
-"la reproducció de partides prèviament enregistrades. En aquests casos, "
-"l'emulador sempre reiniciarà la màquina recreativa."
+"iniciar un joc. Si és fals, l'emulador arrencarà la màquina recreativa des "
+"d'un inici en fred. Aquest ajustament no s'aplicarà a l'enregistrament de "
+"partides ni la reproducció de partides prèviament enregistrades. En aquests "
+"casos, l'emulador sempre reiniciarà la màquina recreativa."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:5
 msgid "Column names"
@@ -433,8 +433,8 @@ msgid ""
 "If true, automatically switch to full screen mode when starting a game. If "
 "false, start the game in a window."
 msgstr ""
-"Si és cert, canvia automàticament al mode de pantalla completa en iniciar una"
-" partida. Si és fals, inicia la partida en una finestra."
+"Si és cert, canvia automàticament al mode de pantalla completa en iniciar "
+"una partida. Si és fals, inicia la partida en una finestra."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:11
 msgid "ROM error filename"
@@ -442,7 +442,8 @@ msgstr "Error de ROM nom de fitxer"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
 msgid "Suggested filename for the ROM error “Save As” dialog."
-msgstr "Nom de fitxer suggerit per al diàleg «Desa com a» quan hi ha un error ROM."
+msgstr ""
+"Nom de fitxer suggerit per al diàleg «Desa com a» quan hi ha un error ROM."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
 msgid "Properties height"
@@ -512,8 +513,8 @@ msgid ""
 "completion feature was not used in the most recent search."
 msgstr ""
 "La coincidència seleccionada més recentment d'una llista de compleció de "
-"cerca. El primer valor és el nom de la columna de la coincidència i el segon"
-" valor és el text de la coincidència. Exemple (Fabricant Williams). Els "
+"cerca. El primer valor és el nom de la columna de la coincidència i el segon "
+"valor és el text de la coincidència. Exemple (Fabricant Williams). Els "
 "valors buits indiquen que la característica de compleció no s'ha utilitzat "
 "en la cerca més recent."
 
@@ -553,8 +554,8 @@ msgid ""
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
-"El primer valor és el nom de columna ordenat més recentment (o «per defecte»"
-" per a l'ordenació predeterminada) i el segon valor és l'ordre d'ordenació. "
+"El primer valor és el nom de columna ordenat més recentment (o «per defecte» "
+"per a l'ordenació predeterminada) i el segon valor és l'ordre d'ordenació. "
 "Cert indica ordre descendent; Fals indica ordre ascendent."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
@@ -660,18 +661,18 @@ msgid "Remove %s Column"
 msgstr "Suprimeix la columna %s"
 
 #: ../src/gva-columns.c:301
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "Remove the \"%s\" column from the game list"
 msgid "Remove the “%s” column from the game list"
 msgstr "Elimina la columna «%s» de la llista de jocs"
 
 #: ../src/gva-columns.c:867
 msgid "Click here to remove from favorites"
-msgstr "Feu clic aquí per suprimir-lo dels preferits"
+msgstr "Feu clic aquí per a suprimir-lo dels preferits"
 
 #: ../src/gva-columns.c:869
 msgid "Click here to add to favorites"
-msgstr "Feu clic aquí per afegir-lo als preferits"
+msgstr "Feu clic aquí per a afegir-lo als preferits"
 
 #: ../src/gva-columns.c:961 ../src/gva-properties.c:408
 msgid "(Game Description Unknown)"
@@ -916,8 +917,8 @@ msgstr "Voleu suprimir els enregistraments de joc seleccionats?"
 
 #: ../src/gva-play-back.c:58
 msgid ""
-"This operation will permanently erase the recorded games you have selected."
-"  Are you sure you want to proceed?"
+"This operation will permanently erase the recorded games you have selected.  "
+"Are you sure you want to proceed?"
 msgstr ""
 "Aquesta operació suprimirà els jocs enregistrats que heu seleccionat. Esteu "
 "segur de voler continuar?"
@@ -963,17 +964,32 @@ msgstr[1] "Resultats de la cerca"
 
 #: ../src/gva-ui.c:58
 msgid ""
-"GNOME Video Arcade is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.\n"
+"GNOME Video Arcade is free software; you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
+"Free Software Foundation; either version 3 of the License, or (at your "
+"option) any later version.\n"
 "\n"
-"GNOME Video Arcade is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"GNOME Video Arcade is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-"You should have received a copy of the GNU General Public License along with GNOME Video Arcade.  If not, see <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with "
+"GNOME Video Arcade.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"El GNOME Video Arcade és programari lliure; podeu redistribuir-lo i/o modificar-lo sota els termes de la Llicència Pública General GNU tal com ha estat publicada per la Free Software Foundation; ja sigui la versió 3 de la Llicència o bé (si ho preferiu) qualsevol altra versió posterior.\n"
+"El GNOME Video Arcade és programari lliure; podeu redistribuir-lo i/o "
+"modificar-lo sota els termes de la Llicència Pública General GNU tal com ha "
+"estat publicada per la Free Software Foundation; ja sigui la versió 3 de la "
+"Llicència o bé (si ho preferiu) qualsevol altra versió posterior.\n"
 "\n"
-"El GNOME Video Arcade es distribueix amb l'expectativa que serà útil, però SENSE CAP GARANTIA; ni tan sols la garantia implícita de COMERCIABILITAT o ADEQUACIÓ PER UN PROPÒSIT PARTICULAR. Vegeu la Llicència Pública General GNU per obtenir-ne més detalls.\n"
+"El GNOME Video Arcade es distribueix amb l'expectativa que serà útil, però "
+"SENSE CAP GARANTIA; ni tan sols la garantia implícita de COMERCIABILITAT o "
+"ADEQUACIÓ PER UN PROPÒSIT PARTICULAR. Vegeu la Llicència Pública General GNU "
+"per a obtenir-ne més detalls.\n"
 "\n"
-"Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU juntament amb el GNOME Video Arcade; en cas contrari, vegeu <http://www.gnu.org/licenses/>."
+"Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU "
+"juntament amb el GNOME Video Arcade; en cas contrari, vegeu <http://www.gnu."
+"org/licenses/>."
 
 #: ../src/gva-ui.c:310
 msgid "M.A.M.E. Front-End"
@@ -1015,7 +1031,7 @@ msgid "Add %s Column"
 msgstr "Afegeix la columna %s"
 
 #: ../src/gva-ui.c:924
-#, c-format, fuzzy
+#, fuzzy, c-format
 #| msgid "Add a \"%s\" column to the game list"
 msgid "Add a “%s” column to the game list"
 msgstr "Afegeix una columna «%s» a la llista de jocs"
@@ -1046,14 +1062,14 @@ msgstr "No s'ha trobat fitxers ROM"
 
 #: ../src/main.c:109
 msgid ""
-"GNOME Video Arcade was unable to locate any ROM files. It could be that MAME"
-" is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
+"GNOME Video Arcade was unable to locate any ROM files. It could be that MAME "
+"is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
 "more details and troubleshooting tips."
 msgstr ""
 "El GNOME Video Arcade no ha trobat cap fitxer ROM. És possible que el MAME "
 "no estigui configurat correctament, o que no hi hagi cap fitxer ROM "
-"instal·lat. Feu clic a <b>Ajuda</b> per obtenir-ne més detalls i consells "
-"per resoldre problemes."
+"instal·lat. Feu clic a <b>Ajuda</b> per a obtenir-ne més detalls i consells "
+"per a resoldre problemes."
 
 #: ../src/main.c:152
 msgid "Changes detected in ROM files"
@@ -1061,13 +1077,19 @@ msgstr "S'han detectat canvis als fitxers ROM"
 
 #: ../src/main.c:156
 msgid ""
-"GNOME Video Arcade has detected changes in your ROM files and will need to audit them in order to update the game list. However the audit may take several minutes to complete. Would you like to perform the audit now?\n"
+"GNOME Video Arcade has detected changes in your ROM files and will need to "
+"audit them in order to update the game list. However the audit may take "
+"several minutes to complete. Would you like to perform the audit now?\n"
 "\n"
-"If you skip the audit now, it will be performed automatically the next time you start GNOME Video Arcade."
+"If you skip the audit now, it will be performed automatically the next time "
+"you start GNOME Video Arcade."
 msgstr ""
-"El GNOME Video Arcade ha detectat canvis als vostres fitxers ROM i necessita auditar-los per a actualitzar la llista de jocs. Tanmateix, una auditoria pot trigar uns minuts en completar-se. Voleu realitzar l'auditoria ara?\n"
+"El GNOME Video Arcade ha detectat canvis als vostres fitxers ROM i necessita "
+"auditar-los per a actualitzar la llista de jocs. Tanmateix, una auditoria "
+"pot trigar uns minuts en completar-se. Voleu realitzar l'auditoria ara?\n"
 "\n"
-"Si ometeu l'auditoria ara, es realitzarà automàticament la pròxima vegada que inicieu el GNOME Video Arcade."
+"Si ometeu l'auditoria ara, es realitzarà automàticament la pròxima vegada "
+"que inicieu el GNOME Video Arcade."
 
 #: ../src/main.c:166
 msgid "_Skip Audit"
