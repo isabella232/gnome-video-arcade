@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gnome-video-arcade 0.8.1\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/"
 "issues\n"
-"POT-Creation-Date: 2020-07-13 10:47+0000\n"
-"PO-Revision-Date: 2012-01-06 18:10+0100\n"
-"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
+"POT-Creation-Date: 2021-01-10 21:13+0000\n"
+"PO-Revision-Date: 2021-02-02 16:30+0100\n"
+"Last-Translator: Jordi Mallach <jordi@sindominio.net>, Òscar Pérez "
+"<oscarpc@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../data/gnome-video-arcade.builder.h:1
 msgid "Add to _Favorites"
@@ -28,7 +30,7 @@ msgstr "Mostra el joc següent"
 
 #: ../data/gnome-video-arcade.builder.h:3
 msgid "Play _Back…"
-msgstr "_Reprodueix enrere…"
+msgstr "_Reprodueix…"
 
 #: ../data/gnome-video-arcade.builder.h:4
 msgid "Play back the selected game recording"
@@ -52,8 +54,7 @@ msgstr "_Enregistra"
 
 #: ../data/gnome-video-arcade.builder.h:9
 msgid "Start the selected game and record keypresses to a file"
-msgstr ""
-"Inicia el joc seleccionat i enregistra les premudes de tecla a un fitxer"
+msgstr "Inicia el joc seleccionat i enregistra les tecles premudes a un fitxer"
 
 #: ../data/gnome-video-arcade.builder.h:10
 msgid "Remove from _Favorites"
@@ -109,7 +110,7 @@ msgstr "Jocs _preferits"
 
 #: ../data/gnome-video-arcade.builder.h:23
 msgid "Only show my favorite games"
-msgstr "Mostra només els jocs preferits"
+msgstr "Mostra només els meus jocs preferits"
 
 #: ../data/gnome-video-arcade.builder.h:24
 msgid "Search _Results"
@@ -117,7 +118,7 @@ msgstr "_Resultats de la cerca"
 
 #: ../data/gnome-video-arcade.builder.h:25
 msgid "Show my search results"
-msgstr "Mostra els resultats de la cerca"
+msgstr "Mostra els resultats de la meva cerca"
 
 #: ../data/gnome-video-arcade.builder.h:26
 #: ../data/gnome-video-arcade.appdata.xml.in.h:1
@@ -181,7 +182,6 @@ msgstr "<b>Hi ha problemes coneguts amb aquest joc:</b>"
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
-#| msgid "• The colors aren't 100% accurate."
 msgid "• The colors aren’t 100% accurate."
 msgstr "• Els colors no són del 100% precisos."
 
@@ -191,13 +191,11 @@ msgstr "• Els colors són completament incorrectes."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
-#| msgid "• The video emulation isn't 100% accurate."
 msgid "• The video emulation isn’t 100% accurate."
 msgstr "• L'emulació de vídeo no és del 100% exacta."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
-#| msgid "• The sound emulation isn't 100% accurate."
 msgid "• The sound emulation isn’t 100% accurate."
 msgstr "• L'emulació de so no és del 100% exacta."
 
@@ -211,10 +209,8 @@ msgstr ""
 "• La inversió de la pantalla al mode <i>cocktail</i> no està implementada."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
-#, fuzzy
-#| msgid "• <b>THIS GAME DOESN'T WORK.</b>"
 msgid "• <b>THIS GAME DOESN’T WORK.</b>"
-msgstr "• <b>THIS GAME DOESN'T WORK.</b>"
+msgstr "• <b>AQUEST JOC NO FUNCIONA.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
 msgid "• The game has protection which isn’t fully emulated."
@@ -254,7 +250,7 @@ msgstr "Jocs enregistrats"
 
 #: ../data/gnome-video-arcade.builder.h:57
 msgid "Delete the selected game recordings"
-msgstr "Suprimeix l'enregistrament de joc seleccionat"
+msgstr "Suprimeix els enregistraments de joc seleccionats"
 
 #: ../data/gnome-video-arcade.builder.h:58
 msgid "Play _Back"
@@ -314,11 +310,11 @@ msgstr "_Visualitza"
 
 #: ../data/gnome-video-arcade.builder.h:72
 msgid "_Restore previous state when starting a game"
-msgstr "_Restaura un estat anterior quan s'iniciï un joc"
+msgstr "_Restaura l’estat anterior quan s'iniciï un joc"
 
 #: ../data/gnome-video-arcade.builder.h:73
 msgid "Start games in _fullscreen mode"
-msgstr "Inicia els jocs en mode a pantalla _completa"
+msgstr "Inicia els jocs en mode de pantalla _completa"
 
 #: ../data/gnome-video-arcade.builder.h:74
 msgid "Preferences"
@@ -364,13 +360,13 @@ msgid ""
 "Arcade Machine Emulator) allowing you to play classic arcade games on your "
 "computer."
 msgstr ""
-"GNOME Video Arcade és una aplicació senzilla d'interfície per a MAME "
-"(emulador de màquines d'arcade múltiples) que us permet jugar a jocs arcade "
-"clàssics a l'ordinador."
+"El GNOME Video Arcade és una interfície senzilla per al MAME (emulador de "
+"múltiples màquines d'arcade) que us permet jugar a jocs arcade clàssics a "
+"l'ordinador."
 
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
-msgstr "Video Arcade"
+msgstr "Vídeo Arcade"
 
 #: ../data/gnome-video-arcade.desktop.in.h:3
 msgid "Play classic arcade games"
@@ -378,15 +374,15 @@ msgstr "Jugueu a jocs d'arcade clàssics"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:1
 msgid "All available column names"
-msgstr "Tots els noms de columna disponibles"
+msgstr "Tots els noms de columnes disponibles"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
 "subset of them (see “columns”)."
 msgstr ""
-"Llista de tots els noms de columna disponibles. L'usuari pot escollir "
-"mostrar-ne un subconjunt (vegeu «columnes»)."
+"Llista de tots els noms de columnes disponibles. L'usuari pot escollir "
+"mostrar-ne només un subconjunt (vegeu «columnes»)."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
 msgid "Save and restore state"
@@ -401,12 +397,13 @@ msgid ""
 "recorded games. In those cases the emulator will always reboot the arcade "
 "machine."
 msgstr ""
-"Activa la restauració automàtica a l'inici i desa en sortir. Si és cert, "
-"l'emulador intentarà restaurar l'estat anterior de la màquina recreativa en "
-"iniciar un joc. Si és fals, l'emulador arrencarà la màquina recreativa des "
-"d'un inici en fred. Aquest ajustament no s'aplicarà a l'enregistrament de "
-"partides ni la reproducció de partides prèviament enregistrades. En aquests "
-"casos, l'emulador sempre reiniciarà la màquina recreativa."
+"Activa la restauració automàtica a l'inici i el desat en sortir. Si està "
+"activat, l'emulador intentarà restaurar l'estat anterior de la màquina "
+"recreativa en iniciar un joc. Si està desactivat, l'emulador arrencarà la "
+"màquina recreativa des d'un inici en fred. Aquest ajustament no s'aplicarà a "
+"l'enregistrament de partides ni a la reproducció de partides prèviament "
+"enregistrades. En aquests casos, l'emulador sempre reiniciarà la màquina "
+"recreativa."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:5
 msgid "Column names"
@@ -433,168 +430,148 @@ msgid ""
 "If true, automatically switch to full screen mode when starting a game. If "
 "false, start the game in a window."
 msgstr ""
-"Si és cert, canvia automàticament al mode de pantalla completa en iniciar "
-"una partida. Si és fals, inicia la partida en una finestra."
+"Si està activat, canvia automàticament al mode de pantalla completa en "
+"iniciar un joc. Altrament, inicia el joc en una finestra."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:11
 msgid "ROM error filename"
-msgstr "Error de ROM nom de fitxer"
+msgstr "Error al nom de fitxer de la ROM"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
 msgid "Suggested filename for the ROM error “Save As” dialog."
 msgstr ""
-"Nom de fitxer suggerit per al diàleg «Desa com a» quan hi ha un error ROM."
+"Nom de fitxer suggerit al diàleg «Anomena i desa» quan hi ha un error a la "
+"ROM."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
 msgid "Properties height"
-msgstr "Alçada de les propietats"
+msgstr "Alçada de la finestra de propietats"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:14
 msgid "The height of the Properties window."
-msgstr "L'alçada de la finestra Propietats."
+msgstr "L'alçada de la finestra propietats."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:15
 msgid "Properties maximized"
-msgstr "Propietats maximitzades"
+msgstr "Finestra de propietats maximitzada"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:16
 msgid "True if the Properties window is maximized."
-msgstr "Cert si la finestra Propietats està maximitzada."
+msgstr "Cert si la finestra de propietats està maximitzada."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:17
 msgid "Properties page"
 msgstr "Pàgina de propietats"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:18
-#, fuzzy
 msgid "The most recently selected page in the Properties window."
-msgstr "La pàgina seleccionada més recentment a la finestra Propietats."
+msgstr "La pàgina més recentment seleccionada a la finestra de propietats."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:19
-#, fuzzy
 msgid "Properties width"
 msgstr "Amplada de les propietats"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:20
-#, fuzzy
 msgid "The width of the Properties window."
-msgstr "L'amplada de la finestra Propietats."
+msgstr "L'amplada de la finestra de propietats."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:21
 msgid "Search text"
-msgstr "Cerca text"
+msgstr "Cerca el text"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:22
-#, fuzzy
 msgid "The most recent text in the search entry."
-msgstr "El text més recent a l'entrada de cerca."
+msgstr "El text més recent al camp de cerca."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:23
-#, fuzzy
 msgid "Selected game"
-msgstr "Partida seleccionada"
+msgstr "Joc seleccionat"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:24
-#, fuzzy
 msgid "The most recently selected game."
-msgstr "La partida seleccionada més recentment."
+msgstr "El joc seleccionat més recentment."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:25
-#, fuzzy
 msgid "Selected completion match"
 msgstr "Coincidència de compleció seleccionada"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:26
-#, fuzzy
 msgid ""
 "The most recently selected match from a search completion list. The first "
 "value is the column name of the match, and the second value is the text of "
 "the match. Example: (manufacturer, Williams). Empty values indicate the "
 "completion feature was not used in the most recent search."
 msgstr ""
-"La coincidència seleccionada més recentment d'una llista de compleció de "
-"cerca. El primer valor és el nom de la columna de la coincidència i el segon "
-"valor és el text de la coincidència. Exemple (Fabricant Williams). Els "
-"valors buits indiquen que la característica de compleció no s'ha utilitzat "
-"en la cerca més recent."
+"La coincidència seleccionada més recentment d'una llista de cerca de "
+"compleció. El primer valor és el nom de la columna de la coincidència i el "
+"segon valor és el text de la coincidència. Exemple (fabricant, Williams). "
+"Els valors buits indiquen que la característica de compleció no s'ha "
+"utilitzat en la darrera cerca."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:27
-#, fuzzy
 msgid "Selected view"
 msgstr "Visualització seleccionada"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:28
-#, fuzzy
 msgid "The most recently selected view."
 msgstr "La vista seleccionada més recentment."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:29
-#, fuzzy
 msgid "Show cloned games"
 msgstr "Mostra els jocs clonats"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:30
-#, fuzzy
 msgid ""
 "If true, show both original and cloned games in the main window. If false, "
 "show only original games."
 msgstr ""
-"Si és cert mostra tant els jocs originals com els clonats a la finestra "
-"principal. Si és fals mostra només els jocs originals."
+"Si està seleccionat, mostra tant els jocs originals com els clonats a la "
+"finestra principal. Altrament, mostra només els jocs originals."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:31
-#, fuzzy
 msgid "Sort column and sort order"
-msgstr "Ordena la columna i ordena l'ordre"
+msgstr "Columna i direcció d’ordenació"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
-#, fuzzy
 msgid ""
 "The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
 msgstr ""
-"El primer valor és el nom de columna ordenat més recentment (o «per defecte» "
-"per a l'ordenació predeterminada) i el segon valor és l'ordre d'ordenació. "
-"Cert indica ordre descendent; Fals indica ordre ascendent."
+"El primer valor és el nom de la columna per la que s’ha ordenat més "
+"recentment (o «per defecte» per a l'ordenació predeterminada) i el segon "
+"valor és la direcció de l’ordenació. Cert indica ordre descendent, mentre "
+"que fals indica ordre ascendent."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
-#, fuzzy
 msgid "Sound muted"
 msgstr "So silenciat"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:34
-#, fuzzy
 msgid "If true, games are started without sound."
-msgstr "Si és cert els jocs s'inicien sense so."
+msgstr "Si està seleccionat, els jocs s'inicien sense so."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:35
-#, fuzzy
 msgid "Program version"
 msgstr "Versió del programa"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:36
-#, fuzzy
 msgid "The most recently run version of GNOME Video Arcade."
-msgstr "La versió més recent de GNOME Video Arcade."
+msgstr "La versió executada més recentment del GNOME Video Arcade."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:37
-#, fuzzy
 msgid "Window height"
 msgstr "Alçada de la finestra"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:38
-#, fuzzy
 msgid "The height of the main window."
 msgstr "L'alçada de la finestra principal."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:39
-#, fuzzy
 msgid "Window maximized"
 msgstr "Finestra maximitzada"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:40
-#, fuzzy
 msgid "True if the main window is maximized."
 msgstr "Cert si la finestra principal està maximitzada."
 
@@ -603,27 +580,22 @@ msgid "Window width"
 msgstr "Amplada de la finestra"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:42
-#, fuzzy
 msgid "The width of the main window."
 msgstr "L'amplada de la finestra principal."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:43
-#, fuzzy
 msgid "Window X coordinate"
 msgstr "Coordenada X de la finestra"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:44
-#, fuzzy
 msgid "The X coordinate of the main window."
 msgstr "La coordenada X de la finestra principal."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:45
-#, fuzzy
 msgid "Window Y coordinate"
 msgstr "Coordenada Y de la finestra"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:46
-#, fuzzy
 msgid "The Y coordinate of the main window."
 msgstr "La coordenada Y de la finestra principal."
 
@@ -661,8 +633,7 @@ msgid "Remove %s Column"
 msgstr "Suprimeix la columna %s"
 
 #: ../src/gva-columns.c:301
-#, fuzzy, c-format
-#| msgid "Remove the \"%s\" column from the game list"
+#, c-format
 msgid "Remove the “%s” column from the game list"
 msgstr "Elimina la columna «%s» de la llista de jocs"
 
@@ -756,20 +727,16 @@ msgid "Invalid or unsupported INP file format"
 msgstr "El format del fitxer INP és invàlid o no està implementat"
 
 #: ../src/gva-main.c:242
-#, fuzzy
-#| msgid "Building game database..."
 msgid "Building game database…"
-msgstr "S'està construint la base de dades de jocs"
+msgstr "S'està construint la base de dades de jocs…"
 
 #: ../src/gva-main.c:302
-#, fuzzy
-#| msgid "Analyzing ROM files..."
 msgid "Analyzing ROM files…"
-msgstr "Analitzant els fitxers ROM"
+msgstr "Analitzant els fitxers ROM…"
 
 #: ../src/gva-main.c:986
 msgid "Search for any of the following:"
-msgstr "Cerca per qualsevol dels següents:"
+msgstr "Cerca qualsevol dels següents:"
 
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../src/gva-main.c:993
@@ -782,7 +749,7 @@ msgstr "Any del Copyright"
 
 #: ../src/gva-main.c:1028
 msgid "BIOS Name"
-msgstr "Nom del BIOS"
+msgstr "Nom de la BIOS"
 
 #: ../src/gva-main.c:1035
 msgid "Driver Name"
@@ -808,11 +775,11 @@ msgstr "Si l'estat dels botons és silenciat"
 
 #: ../src/gva-mute-button.c:202
 msgid "In-game sound is muted"
-msgstr "El so dels jocs és silenciat"
+msgstr "El so dels jocs està silenciat"
 
 #: ../src/gva-mute-button.c:207
 msgid "In-game sound is enabled"
-msgstr "El so dels jocs és habilitat"
+msgstr "El so dels jocs està habilitat"
 
 #: ../src/gva-nplayers.c:179
 msgid "Up to four players alternating or two players simultaneously"
@@ -925,7 +892,7 @@ msgstr ""
 
 #: ../src/gva-play-back.c:62
 msgid "Do Not Delete"
-msgstr "No ho suprimeixes"
+msgstr "No ho suprimeixis"
 
 #: ../src/gva-properties.c:144
 msgid "Show this game"
@@ -942,7 +909,7 @@ msgstr ""
 
 #: ../src/gva-properties.c:460
 msgid "History not available"
-msgstr "L'historial no és disponible"
+msgstr "L'historial no està disponible"
 
 #: ../src/gva-tree-view.c:431
 msgid "Available Game"
@@ -1001,25 +968,25 @@ msgstr "Visiteu la pàgina web"
 
 #: ../src/gva-ui.c:317
 msgid "translator-credits"
-msgstr "Jordi Mallach <jordi@sindominio.net>"
+msgstr "Jordi Mallach <jordi@sindominio.net>, Òscar Pérez <oscarpc@gmail.com>"
 
 #. Translators: This is passed through D-Bus as
 #. * the reason to inhibit GNOME screen saver.
 #: ../src/gva-ui.c:444
 msgid "Watching a fullscreen game"
-msgstr "S'està visualitzant un joc a pantalla completa"
+msgstr "S'està visualitzant un joc en mode de pantalla completa"
 
 #. Translators: This is passed through D-Bus as
 #. * the reason to inhibit GNOME screen saver.
 #: ../src/gva-ui.c:543
 msgid "Recording a fullscreen game"
-msgstr "S'està enregistrant un joc a pantalla completa"
+msgstr "S'està enregistrant un joc en mode de pantalla completa"
 
 #. Translators: This is passed through D-Bus as the
 #. * reason to inhibit GNOME screen saver.
 #: ../src/gva-ui.c:683
 msgid "Playing a fullscreen game"
-msgstr "S'està jugant a un joc a pantalla completa"
+msgstr "S'està jugant a un joc en mode de pantalla completa"
 
 #: ../src/gva-ui.c:780
 msgid "Failed to initialize user interface"
@@ -1031,8 +998,7 @@ msgid "Add %s Column"
 msgstr "Afegeix la columna %s"
 
 #: ../src/gva-ui.c:924
-#, fuzzy, c-format
-#| msgid "Add a \"%s\" column to the game list"
+#, c-format
 msgid "Add a “%s” column to the game list"
 msgstr "Afegeix una columna «%s» a la llista de jocs"
 
